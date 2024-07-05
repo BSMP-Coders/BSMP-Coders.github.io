@@ -1,8 +1,8 @@
 # BSMP24 Advanced Coding Program - Lesson Summary 🌐🚀   <!-- {docsify-ignore-all} -->
    
 Welcome to the BSMP24 Advanced Coding Program! This course is designed to take you through the fundamentals of coding with Python, web development with Flask and Streamlit, and the basics of using GitHub and Visual Studio Code. Below is a summary of our lesson plans:  
-   
-## [Lesson 1: Intro to GitHub, VS Code, and Streamlit](/lessons/lesson1/lesson1.md)  <!-- {docsify-ignore-all} -->
+
+## [Lesson 1: Intro to GitHub, VS Code, and Streamlit](/lessons/lesson1/lesson1.md)
 - **Objective**: Introduce students to GitHub, VS Code, and creating a simple app with Python and Streamlit.  
 - **Description**:  
   - Basics of GitHub and VS Code setup.  
