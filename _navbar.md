@@ -3,4 +3,4 @@
   * [Getting Started with this course](students/Getting-Started.md)
 
 * **Coding Instructors**
-  * [Coding Instructors](docsu/coding_program_admins.md)
+  * [Coding Instructors](/program/coding_program_admins.md)
