@@ -1,4 +1,4 @@
-![](_media/bsmp_coders_banner_white.svg)
+![](/_media/logos/bsmp_coders_banner.svg)
 
 # BSMP24 Advanced Coding Program: Overview 🚀 
    

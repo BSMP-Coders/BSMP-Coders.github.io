@@ -1,4 +1,4 @@
-<img src="_media/bsmp_coders_banner_white.svg"> <!-- background image style="max-width: 100%; height: auto;" alt="logo"-->
+<img src="_media/logos/bsmp_coders_banner.svg"> <!-- background image style="max-width: 100%; height: auto;" alt="logo"-->
 
 <details>
 <summary><b>Where to start?</b> Dive into the world of Coding and AI with a comprehensive program designed for high school students by Microsoft.</summary>

@@ -1,4 +1,4 @@
-![](../_media/bsmp_coders_banner_white.svg)
+![](/_media/logos/bsmp_coders_banner.svg)
 
 # Getting Started with this course
 
@@ -9,21 +9,20 @@ To ensure your success, this page outlines setup steps, technical requirements, 
 # Setup Steps
 To start taking this course, you will need to complete the following steps.
 
+## 1. Accessing In-Class Code Repos and Homework Assignments (e.g., Lesson 1 - Hello World web app in Streamlit)
 
-## 1. Create a codespace
+
+![](https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/github_assignments.png)
+
+
+
+## 2. Create a codespace
 
 To avoid any dependency issues when running the code, we recommend running this course in a [GitHub Codespaces](https://github.com/features/codespaces).
 
 This can be created by selecting the `Code` option on your forked version of this repo and selecting the Codespaces option
 
 ![](https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/codespaces/create_codespaces_github.png)
-
-
-## 2. Accessing In-Class Code Repos and Homework Assignments (e.g., Lesson 1 - Hello World web app in Streamlit)
-
-
-![](https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/github_assignments.png)
-
 
 ## 3. Stop or delete your codespace  
   
