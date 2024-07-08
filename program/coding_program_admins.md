@@ -71,8 +71,7 @@ For more detailed criteria, refer to [Final Projects](https://bsmp-coders.github
 - Students must submit their video by the last Tuesday of the BSMP chapter before class.  
    
 ## Additional Resources 📚  
-> [!WARNING] <!--[!ATTENTION] ⚠️-->
-> - **Teams Meeting Link**: [Insert Link] ⚠️  
-> - **GitHub Repository**: [BSMP-Coders](https://github.com/BSMP-Coders)  
+- **Teams Meeting Link**: Check Calender or reach out to coding program admins 
+- **GitHub Repository**: [BSMP-Coders](https://github.com/BSMP-Coders)  
    
 Thank you for your dedication and support in making the BSMP24 Advanced Coding Program a success! If you have any questions or need further assistance, please don't hesitate to reach out to Phillip Hale. 🙌
