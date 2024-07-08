@@ -1,4 +1,4 @@
-![](/_media/logos/bsmp_coders_banner.svg)
+![](../_media/logos/bsmp_coders_banner.svg)
 
 # Getting Started with this course
 
@@ -11,8 +11,9 @@ To start taking this course, you will need to complete the following steps.
 
 ## 1. Accessing In-Class Code Repos and Homework Assignments (e.g., Lesson 1 - Hello World web app in Streamlit)
 
+You will be given a link in class to access the code repositories and homework assignments. For example, Lesson 1 will guide you through creating a "Hello World" web app in Streamlit.
 
-![](https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/github_assignments.png)
+![](../_media/github_assignments.png)
 
 
 
@@ -22,26 +23,34 @@ To avoid any dependency issues when running the code, we recommend running this 
 
 This can be created by selecting the `Code` option on your forked version of this repo and selecting the Codespaces option
 
-![](https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/codespaces/create_codespaces_github.png)
+![](../_media/codespaces/create_codespaces_github.png)
 
-## 3. Stop or delete your codespace  
-  
+
+## 3. Stop or Delete Your Codespace  
+   
 When you are done, remember to stop your codespace on GitHub to avoid any undesired use of your capacity.  
-  
-#### Go to [github.com/codespaces](https://github.com/codespaces). At the bottom of the page, all your codespaces are listed. Click the overflow menu icon ( **⋮** ) for your codespace.  
+   
+<!-- tabs:start -->  
 
-<img src="https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/codespaces/deploy-hello-codespace-manage.png" alt="image placeholder" width="50%">  
-  
-#### Click **"Stop codespace"** if you'd like to return to your work later. Otherwise, click **"Delete."**  
-  
-<div style="display: flex; justify-content: space-around;">  
-  <div>  
-    <img src="https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/codespaces/codespace-menu-stop.png" alt="Stop codespace" width="50%">  
-  </div>  
-  <div>  
-    <img src="https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/codespaces/codespace-menu-delete.png" alt="Delete" width="50%">  
-  </div>  
-</div>  
+#### **1. Go to Codespaces**
+
+Go to [github.com/codespaces](https://github.com/codespaces). At the bottom of the page, all your codespaces are listed. Click the overflow menu icon (`⋮`) for your codespace.  
+   
+![](../_media/codespaces/deploy-hello-codespace-manage.png)
+   
+#### **2. Stop Codespace**
+
+Click `Stop codespace` if you'd like to return to your work later.  
+   
+![](../_media/codespaces/codespace-menu-stop.png)
+   
+#### **3. Delete Codespace**
+
+Otherwise, click `Delete.`
+   
+![](../_media/codespaces/codespace-menu-delete.png)
+
+<!-- tabs:end -->
 
 
 
@@ -49,27 +58,28 @@ When you are done, remember to stop your codespace on GitHub to avoid any undesi
 
 When you are done with your work, you can submit it by committing the change and then syncing or pushing the changes to the github repository. 
 
-<table style="width:100%; text-align:center;">  
-  <tr>  
-    <th>1. Stage and Commit</th>  
-    <th>2. Push Changes</th>  
-    <th>3. Sync Changes</th>  
-  </tr>  
-  <tr>  
-    <td>  
-      <p>Use the Source Control tab in VS Code to stage and commit your changes.</p>  
-      <img src="https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/codespaces/submit_1_stage_commit.png" alt="Stage and Commit" width="80%">  
-    </td>  
-    <td>  
-      <p>Push (sync) your changes to the repository to submit homework</p>  
-      <img src="https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/codespaces/submit_2_push_sync_changes.png" alt="Push/Sync Changes" width="80%">  
-    </td>  
-    <td>  
-      <p>Stop Codespace when finished.</p>  
-      <img src="https://github.com/BSMP-Coders/advanced_coding_wiki/raw/main/media/codespaces/submit_3_stop_codespace.png" alt="Sync Changes" width="80%">  
-    </td>  
-  </tr>  
-</table>  
+<!-- tabs:start -->
+
+#### **1. Stage and Commit**
+
+Use the Source Control tab in VS Code to stage and commit your changes.
+
+![](../_media/codespaces/submit_1_stage_commit.png)
+
+#### **2. Push Changes**
+
+Push (sync) your changes to the repository to submit homework.
+
+![](../_media/codespaces/submit_2_push_sync_changes.png)
+
+#### **3. Sync Changes**
+
+Stop Codespace when finished.
+
+![](../_media/codespaces/submit_3_stop_codespace.png)
+
+<!-- tabs:end -->
+
 
 
 ## (Optional) Coding Locally with Visual Studio Code with the Python support extension

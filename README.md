@@ -33,11 +33,13 @@ Here's a sneak peek into our structured lesson plan: 👉 [here are the details 
 8. [**Final Project Preparation and Updates**](/lessons/student_video_project/README_early.md) - Prepare students for their final projects.
 9. [**Student Video Coding Project Presentation**](/lessons/student_video_project/final_projects.md) - Students present their final projects. 
 
-## Program Timeline 📅  
-The program spans 4-6 weeks, with classes held twice a week, culminating in a grand student video project presentation. Participants will demonstrate their coding artistry and the application of their newly acquired skills.
 
-## Recognition and Prizes 🏆  
-Exceptional projects will be recognized, and prizes will be awarded to the top projects. The first place winner will receive a $100 gift card, a testament to their hard work and ingenuity.  
+
+## Final Coding Project  📅  
+The program spans 4-6 weeks, with classes held twice a week, culminating in a grand student video project presentation.
+
+Learn more [👉 Final Coding Video Presentation Detials](/lessons/student_video_project/final_projects.md)
+
 
 ## Get Ready to Innovate! 🚀  
 
@@ -46,4 +48,3 @@ Prepare to unlock a new realm of possibilities by combining your coding skills w
 -----
 
 Embark on this coding odyssey with us. Your future as a tech trailblazer awaits! 🌟👩‍💻👨‍💻
-   

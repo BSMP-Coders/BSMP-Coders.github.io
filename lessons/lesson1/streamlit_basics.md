@@ -48,6 +48,3 @@ else:
 Once you're happy with your app, you can share it with others. With GitHub Codespaces, just push your changes to GitHub, and your app is ready to be shared!  
    
 Congratulations! 🎉 You've just built and shared your first Streamlit app.  
-   
-> [!WARNING] <!--[!ATTENTION] ⚠️-->
-> [Return to Lesson 1](https://github.com/BSMP-Coders/lesson1)

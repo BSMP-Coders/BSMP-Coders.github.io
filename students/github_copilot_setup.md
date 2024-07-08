@@ -34,6 +34,6 @@ Welcome to the BAM Summer Mentorship Program (BSMP) Coding Course! 🌟 Let's ge
    
 ## Need Help? 
    
-If you run into any issues or have questions, feel free to reach out to your instructor or check out the [GitHub Support](https://support.github.com/) page.   
+If you run into any issues or have questions, feel free to reach out to your bsmp instructor or check out the [GitHub Support](https://support.github.com/) page.   
   
 Happy Coding BSMP Coders! 💻✨  

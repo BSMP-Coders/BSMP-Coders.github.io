@@ -3,6 +3,8 @@
 * [🚀 Student Video Project (last Tues of Chapter BSMP)](/lessons/student_video_project/final_projects.md)  
 
 * [Lesson 1](/lessons/lesson1/lesson1.md)
+  * [python basics](/lessons/lesson1/python_basics.md)
+  * [streamlit basics](/lessons/lesson1/streamlit_basics.md)
 
 * [Lesson 2](/lessons/lesson2/lesson2.md)
 * [Lesson 3](/lessons/lesson3/lesson3.md)

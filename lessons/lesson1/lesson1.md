@@ -15,11 +15,9 @@ Our aim is to familiarize you with GitHub Codespaces, Visual Studio Code (VS Cod
 ## Resources You'll Need 📚  
    
 Before we dive in, make sure you have these resources at your fingertips:  
-   
-> [!WARNING] <!--[!ATTENTION] ⚠️-->
-> - Your first GitHub repository: [Lesson 1 GitHub Repo](https://github.com/BSMP-Coders/lesson1-streamlit-hello-world)  
-> - Dive into "Python and Streamlit Basics" with our Jupyter notebook: [Jupyter Notebook](https://github.com/BSMP-Coders/lesson1-streamlit-hello-world/blob/master/python_and_streamlit_basics.ipynb)  
-> - ❌ Check out the lecture notes for more detailed explanations!  
+
+- Your first GitHub repository: [Lesson 1 GitHub Repo](https://classroom.github.com/a/tOJR07ei)  
+- Dive into "Python and Streamlit Basics" with our Jupyter notebook: [Jupyter Notebook](https://github.com/BSMP-Coders/lesson1-streamlit-hello-world/blob/master/python_and_streamlit_basics.ipynb)  
    
 ## GitHub Codespaces: Your Coding Playground in the Cloud ☁️🛠️  
    
@@ -27,7 +25,7 @@ GitHub Codespaces provides a complete, cloud-hosted dev environment to code dire
    
 ### Getting Started with GitHub Codespaces 🌐  
    
-1. Head to the [Lesson 1 GitHub Repo](https://github.com/BSMP-Coders/lesson1-streamlit-hello-world) and initiate your Codespace.  
+1. Head to the [Lesson 1 GitHub Repo](https://classroom.github.com/a/tOJR07ei) and initiate your Codespace.  
 2. Get to know the repository. The `app.py` file is where we'll code our Streamlit app.  
 3. Run your app with a simple click in Codespaces and witness it come to life!  
    
@@ -79,12 +77,4 @@ You're now equipped with the tools and knowledge to start coding. Remember, all 
    
 **Additional Resources:**  
    
-For more detailed instructions, check out these sub-pages:  
-   
-> [!WARNING] <!--[!ATTENTION] ⚠️-->
-> ### [Python Basics for Streamlit](https://github.com/BSMP-Coders/lesson1-python-basics)  
-> A primer on Python essentials for powering your Streamlit app.  
-   
-> [!WARNING] <!--[!ATTENTION] ⚠️-->
-> ### [Streamlit Tutorial](https://github.com/BSMP-Coders/lesson1-streamlit-tutorial)  
-> Step-by-step instructions to create your first web app with Streamlit.  
+For more detailed instructions, check out the sub pages in the app.

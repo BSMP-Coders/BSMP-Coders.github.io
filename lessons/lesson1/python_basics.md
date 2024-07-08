@@ -57,8 +57,3 @@ show_greeting()
 ```  
    
 Now you're ready to use these Python basics to create amazing things with Streamlit!  
-
-[Return to Lesson 1](https://github.com/BSMP-Coders/lesson1)  
-   
-> [!WARNING] <!--[!ATTENTION] ⚠️-->
-> [Return to Lesson 1](https://github.com/BSMP-Coders/lesson1)  
