@@ -1,0 +1,1 @@
+![](../_media/lessons/coding_class_time_schedule.png)
