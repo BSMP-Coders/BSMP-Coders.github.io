@@ -12,16 +12,13 @@ By the end of this lesson, you'll know how to use if statements and loops to con
 - **Loops**: Discover how to repeat actions efficiently.  
 - **Streamlit Widgets**: See how to add interactivity to your apps.  
    
-## Resources You'll Need 📚  
+## Additional Resources 📚  
    
-Gear up for today's coding challenge with these resources:  
+For more information on Python if statements and for loops, please go through these tutorials on [vscodeedu - intro to python](https://vscodeedu.com/courses/intro-to-python) using your BAM emails:  
+   
+- **Unit 3 - If Statements**: [If Statements Tutorial](https://vscode.dev/edu?courseId=intro-to-python&workspace-scheme=vscode-edu-workspace&profile=default#select-course-node=intro-to-python%3Aitp-if)  
+- **Unit 5 - For Loops**: [For Loops Tutorial](https://vscode.dev/edu?courseId=intro-to-python&workspace-scheme=vscode-edu-workspace&profile=default#select-course-node=intro-to-python%3Aitp-for)  
 
-> [!WARNING] <!--[!ATTENTION] ⚠️-->  
-> - Your second GitHub repository: [Lesson 2 GitHub Repo](https://github.com/BSMP-Coders/lesson2_streamlit)  
-> - Dive into "Python If Statements and Loops" with our Jupyter notebook: [Jupyter Notebook - If Statements & Loops](https://github.com/naivelogic/bam_academy_dev/blob/master/lessons/lesson2.ipynb)  
-> - ❌ Try out the interactive activity notebook: [Jupyter Notebook - Lesson 2 Activity](https://github.com/naivelogic/bam_academy_dev/blob/master/lessons/lesson2_activity.ipynb)  
-> - ❌ Check out the quick reference: [Lesson 2 Cheatsheet](https://github.com/naivelogic/bam_academy_dev/blob/master/lessons/lesson2_cheatsheet.md)  
-   
 ## If Statements: The Decision Directors 🎬  
    
 If statements are the directors of your code's movie, deciding which scenes to play based on certain conditions.  
@@ -39,7 +36,19 @@ if st.button("Submit"):
     else:  
         st.write("Aww, we'll try to win your heart next time!")  
 ```  
-   
+
+<details>
+<summary>Streamlit Shorts Video: Advanced Widget Techniques</summary>
+<p>Explore advanced techniques for using widgets in Streamlit with this tutorial.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JSeQSnGovSE?list=TLGGcen3xq_FouUxMTA3MjAyNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
+<details>
+<summary>Streamlit Shorts Video: How to combine a button, checkbox and radio button</summary>
+<p>In the video below, learn how to combine a button, checkbox and radio button!</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JSeQSnGovSE?list=TLGGcen3xq_FouUxMTA3MjAyNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
+
 ## Loops: The Repetition Masters 🔄  
    
 Loops are the magicians that perform the same trick over and over, saving you from the tedious task of writing repetitive code.  
@@ -63,23 +72,3 @@ for i in range(3):
    
 Armed with if statements and loops, you're about to make your Python programs smarter and your Streamlit apps more dynamic. It's time to code, create, and most importantly, have a blast while doing it!  
    
-**Additional Resources:**  
-   
-For more in-depth tutorials and exercises, be sure to check out these sub-pages:  
-   
-> [!WARNING] <!--[!ATTENTION] ⚠️-->  
-> ### [Python If Statements and Loops Tutorial](https://github.com/BSMP-Coders/lesson2-if-loops-tutorial)  
-> Learn the ins and outs of if statements and loops with detailed examples and explanations.  
-   
-> [!WARNING] <!--[!ATTENTION] ⚠️-->  
-> ### [Streamlit Widgets and Interactivity](https://github.com/BSMP-Coders/lesson2-streamlit-widgets)  
-> Get hands-on with Streamlit widgets and learn how to make your apps react to user input.  
-   
-> [!WARNING] <!--[!ATTENTION] ⚠️-->  
-> [Return to Lesson 2](https://github.com/BSMP-Coders/lesson2)  
-   
-**Let's Get Started!** 🌟  
-   
-Put your thinking cap on and dive into the world of conditional logic and looping constructs. And remember, the best way to learn to code is by doing, so let's get coding!  
-   
-**Bonus Exploration:** After completing the activities, challenge yourself by combining if statements and loops to create a more complex Streamlit app. Show off your coding chops and impress us with your creativity!

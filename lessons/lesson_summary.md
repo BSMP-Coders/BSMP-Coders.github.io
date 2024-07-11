@@ -3,7 +3,7 @@
 Welcome to the BSMP24 Advanced Coding Program! This course is designed to take you through the fundamentals of coding with Python, web development with Flask and Streamlit, and the basics of using GitHub and Visual Studio Code. Below is a summary of our lesson plans:  
 
 1. [**Intro to GitHub, VS Code, and Streamlit**](/lessons/lesson1/lesson1.md) - Introduce students to GitHub, VS Code, and creating a simple app with Python and Streamlit.
-2. [**Python Fundamentals with Streamlit**](/lessons/lesson2/lesson2.md) - Cover basic Python concepts such as if statements, functions, and loops, integrating them with Streamlit.
+2. [**Python Fundamentals with Streamlit**](/lessons/lesson2/lesson2.md) - Cover fundamental Python concepts such as `if` statements and loops, integrating them with Streamlit to create engaging web apps.
 3. [**Streamlit + ChatGPT Integration**](/lessons/lesson3/lesson3.md) - Build a basic chatbot using Streamlit and OpenAI's ChatGPT.
 4. [**Flask Basics and Interactive Game Development**](/lessons/lesson4/lesson4_early.md) - Understand Flask basics and develop an interactive game using GitHub Copilot.
 5. [**Flask and Azure OpenAI Integration**](/lessons/lesson5/lesson5_early.md) - Build an autocomplete web app using Flask and Azure OpenAI.
