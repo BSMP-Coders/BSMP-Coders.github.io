@@ -24,6 +24,16 @@ Before we dive in, make sure you have these resources at your fingertips:
 - **OpenAI API for Beginners**: [OpenAI API for Beginners](https://www.kdnuggets.com/openai-api-for-beginners-your-easy-to-follow-starter-guide)  
 - **Lesson 3 Jupyter Notebook**: [Lesson 3 Notebook](https://github.com/naivelogic/bam_academy_dev/blob/master/lessons/lesson3.ipynb)  
 - **Lecture Notes**: (Provided by your instructor)  
+
+- **Streamlit Docs**: 
+  - [Streamlit Intro to How to build a Chat App](https://youtu.be/4sPnOqeUDmk?si=6JGTKLSrtBkFDUuR) (2 mins - YouTube)
+  - [Build a basic LLM chat app](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)
+  - [st.chat_message](https://docs.streamlit.io/develop/api-reference/chat/st.chat_message) 
+  - [st.chat_input](https://docs.streamlit.io/develop/api-reference/chat/st.chat_input)
+
+- **Related Python Fundamentals**: We will go over some of this next week, but if you are interested or want more info on Python fundamentals, we will be touching on i would go through just 
+  - [lesson 1-3 of Unit 2 Functions](https://vscode.dev/edu?courseId=intro-to-python&workspace-scheme=vscode-edu-workspace&profile=default#select-course-node=intro-to-python%3Aitp-functions) from vscodeedu
+  - [Functions YouTube Basics](https://youtu.be/nrCAxXfRU28?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6), part [2](https://youtu.be/C9ZEGqGHXms?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6) and [3](https://youtu.be/9Os0o3wzS_I?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6) from Corey Schafer
    
 ## Streamlit Basics Review 📝  
    
@@ -105,44 +115,52 @@ Let's build a simple chat application using Streamlit and OpenAI's ChatGPT.
     Create a new Python file named `app.py`.  
   
     ```python  
-    import streamlit as st  
-    import openai  
+    from openai import AzureOpenAI
     import os  
-    import dotenv  
-  
-    dotenv.load_dotenv()  
-  
-    # Fetching API key from environment variables  
-    openai_api_key = os.getenv("OPENAI_API_KEY")  
-  
-    # Initialize chat history  
+    import streamlit as st  
+    import dotenv
+    dotenv.load_dotenv()
+        
+    # Put the keys and variables here (never put your real keys in the code)  
+    AOAI_ENDPOINT = os.environ["AZURE_OPENAI_ENDPOINT"]  
+    AOAI_KEY = os.environ["AZURE_OPENAI_API_KEY"]  
+    MODEL_NAME = "gpt-35-turbo"  
+
+    # Set up the client for AI Chat  
+    client = AzureOpenAI(api_key=AOAI_KEY,azure_endpoint=AOAI_ENDPOINT,api_version="2024-05-01-preview",)
+
+    st.subheader("Our First ChatGPT-like app")  
+
+    # Initialize session state for storing messages
     if "messages" not in st.session_state:  
         st.session_state.messages = []  
-  
-    st.title("ChatGPT-like Clone")  
-  
-    # Display chat messages from history  
+        #st.session_state.messages = [{"role": "system", "content": "You are a helpful assistant that responds like a pirate."}]
+
+    # Create a button to reset the conversation
+    if st.button("New Topic"):        
+        #st.session_state.messages = []  
+        st.session_state.messages = [{"role": "system", "content": "You are a helpful assistant that responds like a pirate."}]
+
+    # Display all previous messages
     for message in st.session_state.messages:  
         with st.chat_message(message["role"]):  
             st.markdown(message["content"])  
-  
-    # Accept user input  
-    if prompt := st.chat_input("What is up?"):  
-        st.session_state.messages.append({"role": "user", "content": prompt})  
+
+    # Get user input and generate a response
+    user_input = st.chat_input("What is up?")
+    if user_input:  
+        st.session_state.messages.append({"role": "user", "content": user_input})  
         with st.chat_message("user"):  
-            st.markdown(prompt)  
-  
-        # Generate response from OpenAI  
-        response = openai.Completion.create(  
-            engine="text-davinci-003",  
-            prompt=prompt,  
-            max_tokens=150  
-        ).choices[0].text  
-  
+            st.markdown(user_input)  
         with st.chat_message("assistant"):  
-            st.markdown(response)  
-  
-        st.session_state.messages.append({"role": "assistant", "content": response})  
+            response = client.chat.completions.create(  
+                model=MODEL_NAME,  
+                messages=st.session_state.messages,  
+                stream=False
+            )
+            response_content = response.choices[0].message.content  
+            st.markdown(response_content)  
+            st.session_state.messages.append({"role": "assistant", "content": response_content})
     ```  
    
 2. **Create a .env File**  
@@ -150,7 +168,8 @@ Let's build a simple chat application using Streamlit and OpenAI's ChatGPT.
     Create a `.env` file in the same directory as your `app.py` and add your OpenAI API key:  
   
     ```env  
-    OPENAI_API_KEY=your_openai_api_key_here  
+    AZURE_OPENAI_ENDPOINT=""
+    AZURE_OPENAI_API_KEY="" 
     ```  
    
 3. **Run Your App**  
@@ -161,75 +180,3 @@ Let's build a simple chat application using Streamlit and OpenAI's ChatGPT.
     streamlit run app.py  
     ```  
    
-## In-Class Activity: Build Your Own Chatbot 💬  
-   
-### Objective  
-   
-Create a simple Streamlit app that integrates with OpenAI's ChatGPT to respond to user inputs.  
-   
-### Instructions  
-   
-1. **Open a new Python script (e.g., `chatbot.py`).**  
-2. **Write the following code:**  
-  
-    ```python  
-    import streamlit as st  
-    import openai  
-    import os  
-    import dotenv  
-  
-    dotenv.load_dotenv()  
-  
-    # Fetching API key from environment variables  
-    openai_api_key = os.getenv("OPENAI_API_KEY")  
-  
-    # Initialize chat history  
-    if "messages" not in st.session_state:  
-        st.session_state.messages = []  
-  
-    st.title("ChatGPT-like Clone")  
-  
-    # Display chat messages from history  
-    for message in st.session_state.messages:  
-        with st.chat_message(message["role"]):  
-            st.markdown(message["content"])  
-  
-    # Accept user input  
-    if prompt := st.chat_input("What is up?"):  
-        st.session_state.messages.append({"role": "user", "content": prompt})  
-        with st.chat_message("user"):  
-            st.markdown(prompt)  
-  
-        # Generate response from OpenAI  
-        response = openai.Completion.create(  
-            engine="text-davinci-003",  
-            prompt=prompt,  
-            max_tokens=150  
-        ).choices[0].text  
-  
-        with st.chat_message("assistant"):  
-            st.markdown(response)  
-  
-        st.session_state.messages.append({"role": "assistant", "content": response})  
-    ```  
-   
-### Exercise  
-   
-- Add a subheader using `st.subheader("This is a subheader")`.  
-- Add a text input to accept the user's name and display a greeting using `st.write`.  
-- Use the [Streamlit Documentation](https://docs.streamlit.io/) to explore and add one more interactive element of your choice.  
-   
-## Submitting Your Work 📤  
-   
-Once you have completed the activity, follow the instructions on the Homework page to submit your work. We're excited to see your chatbots in action! 🤖  
-   
-## Ready, Set, Code! 🏁  
-   
-You are now equipped with the tools and knowledge to integrate ChatGPT with Streamlit. Let's dive in and create something amazing! 💻  
-   
-**Additional Resources:**  
-   
-- [Streamlit Conversational Apps Guide](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)  
-- [OpenAI API for Beginners](https://www.kdnuggets.com/openai-api-for-beginners-your-easy-to-follow-starter-guide)  
-   
-Happy coding! 🎉
