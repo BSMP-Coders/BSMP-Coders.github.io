@@ -63,46 +63,58 @@ Streamlit is a powerful, user-friendly framework for creating interactive web ap
     st.markdown("This is a markdown message")  
     ```  
    
-## Introduction to ChatGPT and OpenAI API 🤖  
+## Introduction to ChatGPT and Azure OpenAI API 🌐  
    
-### What is ChatGPT?  
+ChatGPT is a language model developed by OpenAI that can understand and generate human-like text. We’ll use the Azure OpenAI API to integrate ChatGPT into our Streamlit app.  
    
-ChatGPT is a language model developed by OpenAI that can generate human-like text based on the input it receives. It's used for various applications, including chatbots, content creation, and more.  
+### Setting Up Azure OpenAI API  
    
-### How to Use OpenAI API  
-   
-To use OpenAI's ChatGPT, you need to:  
-   
-1. **Sign Up for an API Key**: Create an account on OpenAI's website and get your API key.  
-2. **Install OpenAI Package**: Use pip to install the OpenAI package.  
+1. **Install Required Packages**:  
   
-    ```sh  
-    pip install openai  
-    ```  
+   ```bash  
+   pip install openai streamlit python-dotenv  
+   ```  
    
-3. **Set Up Your Environment**: Use environment variables to securely store your API key.  
-  
-    ```python  
-    import os  
-    import dotenv  
-  
-    dotenv.load_dotenv()  
-    openai_api_key = os.getenv("OPENAI_API_KEY")  
-    ```  
    
-4. **Make API Calls**: Use the OpenAI package to interact with the ChatGPT model.  
+2. **API Key Setup**: Obtain your API key from Azure and set it up in your app. 
+   
+   Create a `.env` file in the same directory as your `app.py` and add your OpenAI API key:  
   
-    ```python  
-    import openai  
+    ```env  
+    AZURE_OPENAI_ENDPOINT=""
+    AZURE_OPENAI_API_KEY="" 
+    ```   
+
+   **Initialize the Client**: Use the `AzureOpenAI` class to set up the client for making API calls.
+   ```python  
+   from openai import AzureOpenAI  
+   import os  
+   import dotenv  
   
-    response = openai.Completion.create(  
-        engine="text-davinci-003",  
-        prompt="Hello, how can I assist you today?",  
-        max_tokens=150  
-    )  
+   dotenv.load_dotenv()  
   
-    print(response.choices[0].text)  
-    ```  
+   AOAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")  
+   AOAI_KEY = os.getenv("AZURE_OPENAI_API_KEY")  
+  
+   client = AzureOpenAI(  
+       api_key=AOAI_KEY,  
+       azure_endpoint=AOAI_ENDPOINT,  
+       api_version="2024-05-01-preview",  
+   )  
+   ```  
+   
+3. **Making API Calls**: Use the `client.chat.completions.create` method to generate responses.  
+  
+   ```python  
+   response = client.chat.completions.create(  
+       model="gpt-35-turbo",  
+       messages=[  
+           {"role": "user", "content": "Hello, how can I help you?"}  
+       ],  
+       stream=False,  
+   )  
+   reply = response.choices[0].message.content
+   ``` 
    
 ## Building Your Chat Application 🛠️  
    
