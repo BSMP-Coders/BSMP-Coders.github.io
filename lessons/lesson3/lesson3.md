@@ -15,21 +15,31 @@ By the end of this lesson, you will:
 - **Streamlit Basics**: Quick review of what we've learned so far.  
 - **ChatGPT Integration**: Setting up and using OpenAI’s API for conversational AI.  
 - **Activity**: Create a chat messaging system within Streamlit.  
-   
-## Resources You'll Need 📚  
-   
-Before we dive in, make sure you have these resources at your fingertips:  
-   
-- **Streamlit Conversational Apps Guide**: [Streamlit Conversational Apps Guide](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)  
-- **OpenAI API for Beginners**: [OpenAI API for Beginners](https://www.kdnuggets.com/openai-api-for-beginners-your-easy-to-follow-starter-guide)  
-- **Lesson 3 Jupyter Notebook**: [Lesson 3 Notebook](https://github.com/naivelogic/bam_academy_dev/blob/master/lessons/lesson3.ipynb)  
-- **Lecture Notes**: (Provided by your instructor)  
+
+### Lesson Repo:
+
+* Lesson 3 Repo: https://classroom.github.com/a/pecBvAwA
+
+
+### Lesson 3 Homework: 
+
+* **Homework 3**: You will build a Streamlit app that allows users to generate a catchy song hook and a meaningful verse based on their chosen artist and topic.
+* **Homework 3 Due Date**: Thursday 7/18 before the next class.
+* Lesson 3 Homework Link: https://classroom.github.com/a/UGDNcF_L
+
+
+## Other Resources 📚  
 
 - **Streamlit Docs**: 
   - [Streamlit Intro to How to build a Chat App](https://youtu.be/4sPnOqeUDmk?si=6JGTKLSrtBkFDUuR) (2 mins - YouTube)
   - [Build a basic LLM chat app](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)
   - [st.chat_message](https://docs.streamlit.io/develop/api-reference/chat/st.chat_message) 
   - [st.chat_input](https://docs.streamlit.io/develop/api-reference/chat/st.chat_input)
+
+- **OpenAI Docs**:
+  - [**OpenAI getting started**](https://platform.openai.com/docs/overview)
+  - [**Open AI Text Generation Guide**](https://platform.openai.com/docs/guides/text-generation)
+  - [**Azure OpenAI API for Beginners**](https://microsoftlearning.github.io/mslearn-openai/Instructions/Exercises/02-natural-language-azure-openai.html)
 
 - **Related Python Fundamentals**: We will go over some of this next week, but if you are interested or want more info on Python fundamentals, we will be touching on i would go through just 
   - [lesson 1-3 of Unit 2 Functions](https://vscode.dev/edu?courseId=intro-to-python&workspace-scheme=vscode-edu-workspace&profile=default#select-course-node=intro-to-python%3Aitp-functions) from vscodeedu
