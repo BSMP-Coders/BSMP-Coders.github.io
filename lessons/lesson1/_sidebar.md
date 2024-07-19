@@ -8,8 +8,9 @@
 
 * [Lesson 2](/lessons/lesson2/lesson2.md)
 * [Lesson 3](/lessons/lesson3/lesson3.md)
-* [Lesson 4](/lessons/lesson4/lesson4_early.md)
-<!--  * [lesson 4](/lessons/lesson4/lesson4.md) -->
+* [lesson 4](/lessons/lesson4/lesson4.md)
+<!--* [Lesson 4](/lessons/lesson4/lesson4_early.md)
+  * [lesson 4](/lessons/lesson4/lesson4.md) -->
 * [Lesson 5](/lessons/lesson5/lesson5_early.md)
 <!--  * [⚠️ lesson 5 - in class](lessons/lesson5/lesson5.md) -->
 * [Lesson 6](/lessons/lesson6/lesson6_early.md)
