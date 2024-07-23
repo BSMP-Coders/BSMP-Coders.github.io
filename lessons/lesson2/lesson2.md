@@ -16,8 +16,8 @@ By the end of this lesson, you'll know how to use if statements and loops to con
    
 For more information on Python if statements and for loops, please go through these tutorials on [vscodeedu - intro to python](https://vscodeedu.com/courses/intro-to-python) using your BAM emails:  
    
-- **Unit 3 - If Statements**: [If Statements Tutorial](https://vscode.dev/edu?courseId=intro-to-python&workspace-scheme=vscode-edu-workspace&profile=default#select-course-node=intro-to-python%3Aitp-if)  
-- **Unit 5 - For Loops**: [For Loops Tutorial](https://vscode.dev/edu?courseId=intro-to-python&workspace-scheme=vscode-edu-workspace&profile=default#select-course-node=intro-to-python%3Aitp-for)  
+- **Unit 3 (vscodeedu) - If Statements**: [If Statements Tutorial](https://vscode.dev/edu?courseId=intro-to-python&workspace-scheme=vscode-edu-workspace&profile=default#select-course-node=intro-to-python%3Aitp-if)  
+- **Unit 5 (vscodeedu) - For Loops**: [For Loops Tutorial](https://vscode.dev/edu?courseId=intro-to-python&workspace-scheme=vscode-edu-workspace&profile=default#select-course-node=intro-to-python%3Aitp-for)  
 
 ## If Statements: The Decision Directors 🎬  
    
@@ -40,13 +40,13 @@ if st.button("Submit"):
 <details>
 <summary>Streamlit Shorts Video: Advanced Widget Techniques</summary>
 <p>Explore advanced techniques for using widgets in Streamlit with this tutorial.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JSeQSnGovSE?list=TLGGcen3xq_FouUxMTA3MjAyNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/JSeQSnGovSE?si=2j-nlMvoNAniTsyJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </details>
 
 <details>
 <summary>Streamlit Shorts Video: How to combine a button, checkbox and radio button</summary>
 <p>In the video below, learn how to combine a button, checkbox and radio button!</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JSeQSnGovSE?list=TLGGcen3xq_FouUxMTA3MjAyNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/EnXJBsCIl_A?si=9cliUVDfItTlINd-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </details>
 
 ## Loops: The Repetition Masters 🔄  

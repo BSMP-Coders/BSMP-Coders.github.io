@@ -5,9 +5,10 @@
 * [Lesson 1](/lessons/lesson1/lesson1.md)
 
 * [Lesson 2](/lessons/lesson2/lesson2.md)
-  * [Archive v1](/lessons/lesson2/archive/lesson2_v1.md)
-  * [Lesson 2 - Archive](/lessons/lesson2/archive/lesson2.md)
+<!--  * [Archive v1](/lessons/lesson2/archive/lesson2_v1.md)
+  * [Lesson 2 - Archive](/lessons/lesson2/archive/lesson2.md)-->
 * [Lesson 3](/lessons/lesson3/lesson3.md)
+* [Streamlit Games](lessons/lesson3/streamlitgames.md)
 * [lesson 4](/lessons/lesson4/lesson4.md)
 <!--* [Lesson 4](/lessons/lesson4/lesson4_early.md)
   * [lesson 4](/lessons/lesson4/lesson4.md) -->
