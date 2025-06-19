@@ -1,4 +1,12 @@
+* **Storytelling with AI**
+  * [AI 4 Good Story Ideas](/dev25/storytelling_with_ai/AI4Good_story_ideas.md)
+  * [Prompt Engineering](/dev25/storytelling_with_ai/prompt_engineering_guide.md)
+* [Lesson 7](/dev25/lesson7/lesson7.md)
+  * [demo](/dev25/lesson7/demo_inclass_dogs.md)
+  * [activity guide](/dev25/lesson7/activity_worksheet.md)
 
+
+<!--
 * **Storytelling with AI**
   * [AI 4 Good Story Ideas](/dev25/storytelling_with_ai/AI4Good_story_ideas.md)
   * [Prompt Engineering](/dev25/storytelling_with_ai/prompt_engineering_guide.md)
@@ -8,12 +16,14 @@
   * [activity guide](/dev25/lesson7/activity_worksheet.md)
   * [activity guide - v2](/dev25/lesson7/worksheet2.md)
 
+
+
 ----
 * **🔥Student Video Project Requirements and Presentation**
   * [Lesson 8 - Final Project Prep](/lessons/student_video_project/README_early.md)
   * [Lesson 9 - Student Video Project Presentation](/lessons/student_video_project/final_projects.md)
 
-<!--
+
 -----
 
 * [Course Lesson Overviews](/dev25/lesson_summary.md)

@@ -8,10 +8,10 @@
     Your browser does not support the video tag.
 </video>
 
-
+<!--
 <iframe src="/_media/v25/lesson7/🐶%20Chill%20Vibes%20for%20Shelter%20Dogs%20demo2.mp4" type="video/mp4" ></iframe>
 
-<!--
+
 
 <details>
 <summary>Streamlit Shorts Video: Advanced Widget Techniques</summary>
