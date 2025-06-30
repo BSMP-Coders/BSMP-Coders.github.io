@@ -80,7 +80,7 @@ Example Output:
 
 Example Output:
 
-![Output](https://nfl24cdn.azureedge.net/nflblob/bsmp25/bsmp25_week3_STWAI/lesson8/sora_ex_chill_dogs_shelter_3.gif)
+![Output](https://nfl24cdn.azureedge.net/nflblob/bsmp25/bsmp25_week3_STWAI/lesson8/sora_ex_chill_dog_shelter_3.gif)
 
 <!--
 <video controls style="width:100%; height:auto;">

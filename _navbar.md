@@ -8,4 +8,4 @@
   * [Coding Instructors](/program/coding_program_admins.md)
 
 * **⚠️BSMP25 Code & AI Academy**
-  * [Coding Instructors](/dev25/lesson_summary.md)
+  * [Coding Instructors](/dev25/storytelling_with_ai/week3_storytelling_with_ai.md)
