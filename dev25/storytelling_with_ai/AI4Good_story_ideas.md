@@ -1,4 +1,4 @@
-# AI 4 Good Story Ideas
+# AI 4 Good Story Ideas <!-- {docsify-ignore-all} -->
 
 Here's a list of fun, exciting, and bite-sized AI for Good project ideas for sparking curiosity while making an actual difference:
 

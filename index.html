@@ -33,6 +33,7 @@
       routerMode: 'hash',  // Change this to 'hash'  
       //logo: '/_media/BAM_logo.png',
       logo: '/_media/logos/bam_coding_logo.png',
+      //logo: '/_media/v25/media/bsmp25_logo.png',
       mergeNavbar: true,
       nativeEmoji: true,
       tabs: {theme: 'classic'},
@@ -54,9 +55,36 @@
       warning: {
         label: "warning"
       },
+      todo: {
+        label: "TODO",
+        icon: "fas fa-clipboard-list", // Requires Font Awesome or a custom icon
+        //className: 'todo-alert', // Optional: for custom CSS styling
+        //icon: 'fas fa-comment',
+        //icon: "fas fa-tasks",
+        //label:'🚀 Try It Yourself',
+        className: 'note'
+      },
+
+      activity: {
+        icon: "fas fa-clipboard-list", // Requires Font Awesome or a custom icon
+        label:'🚀 Try It Yourself',
+        className: 'note'
+      },
+
 
     },
-    }  
+    };  
+      // Custom script to change logo based on route
+  window.addEventListener('hashchange', function() {
+    if (location.hash.includes('dev25')) {
+      document.querySelector('.app-name-link img').src = '/_media/v25/media/bsmp25_logo.png';
+    } else {
+      document.querySelector('.app-name-link img').src = '/_media/logos/bam_coding_logo.png';
+    }
+  });
+
+  // Trigger the event on initial page load
+  window.dispatchEvent(new Event('hashchange'));
   </script>  
   <!-- Required: docsify + docsify-themeable -->
   <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -64,5 +92,7 @@
   <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!-- awesome font-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </body>  
 </html>  
