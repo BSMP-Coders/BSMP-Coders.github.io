@@ -4,9 +4,16 @@
 
 
 <video controls style="width:100%; height:auto;">
+    <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/bsmp25_week3_STWAI/chill_dogs/%F0%9F%90%B6%20Chill%20Vibes%20for%20Shelter%20Dogs%20demo2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!--
+<video controls style="width:100%; height:auto;">
     <source src="/_media/v25/lesson7/🐶%20Chill%20Vibes%20for%20Shelter%20Dogs%20demo2.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+-->
 
 <!--
 <iframe src="/_media/v25/lesson7/🐶%20Chill%20Vibes%20for%20Shelter%20Dogs%20demo2.mp4" type="video/mp4" ></iframe>

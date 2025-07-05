@@ -4,12 +4,13 @@
 -----
 * [**Intermediate Lessons**](/2025/intermediate/lesson_summary.md)
 
-* [Lesson 1 - Intro to GitHub](/2025/intermediate/lessons/lesson1.md)
-* [Lesson 2 - Intro GenAI](/2025/intermediate/lessons/lesson2.md)
+* [Lesson 1 - Intro to GitHub/Copilot](/2025/intermediate/lessons/lesson1.md)
+* [Lesson 2 - Intro GenAI & Build Text Game](/2025/intermediate/lessons/lesson2.md)
 * [Leson 3 - GitHub Copilot Web Apps](/2025/intermediate/lessons/lesson3.md)
-* [Leson 4 - ​​First Python Game w/ Github Copilo](/2025/intermediate/lessons/lesson4.md)
-* [Leson 5 - PyGame Project w/ GitHub Copilot](/2025/intermediate/lessons/lesson5.md)
-* [Leson 6 - PyGame Mechanics Master](/2025/intermediate/lessons/lesson6.md) 
-* [Lesson 7 - Copilot Vid Story](/2025/intermediate/lessons/lesson7.md)
-* [Lesson 8 - Realistic Vid Azure Sora](/2025/intermediate/lessons/lesson8.md)
-* [Lesson 9 - AI Literacy](/2025/intermediate/lessons/lesson9.md)
+* [Lesson 4 – AI Literacy - part 1](/2025/intermediate/lessons/lesson4.md)
+* [Lesson 5 – AI Literacy - part 2​](/2025/intermediate/lessons/lesson5.md)
+* [Lesson 6 – Future of Work​](/2025/intermediate/lessons/lesson6.md)
+* [Lesson 7 – Build Data Visualizations​](/2025/intermediate/lessons/lesson7.md)
+* [Lesson 8 – Build Simple Graphical Python Game](/2025/intermediate/lessons/lesson8.md)
+* [Lesson 9 – Final Project Preparation Discussion](/2025/intermediate/lessons/lesson9.md)
+
