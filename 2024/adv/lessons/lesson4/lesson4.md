@@ -1,5 +1,13 @@
 # Lesson 4: Introduction to Flask 🚀🌐 <!-- {docsify-ignore-all} -->
 
+> [!LESSON_REPO]
+>
+> Refer to this <i class="fab fa-github"></i> [Lesson Repository](https://github.com/BSMP-Coders/advanced-course-2024/tree/master/lesson4) for lesson details and activities for this lesson.
+
+
+-----
+
+
 Welcome to Lesson 4 of the BSMP24 Advanced Coding Program! In this lesson, we will delve into Flask, a micro web framework for Python. Get ready to build your very own web applications! 🌟
 
 ## Objective 🎯

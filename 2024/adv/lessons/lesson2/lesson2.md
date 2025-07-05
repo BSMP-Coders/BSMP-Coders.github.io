@@ -1,5 +1,13 @@
 # Lesson 2: Mastering If Statements and Loops with Streamlit 🎢  <!-- {docsify-ignore-all} -->
-   
+
+> [!LESSON_REPO]
+>
+> Refer to this <i class="fab fa-github"></i> [Lesson Repository](https://github.com/BSMP-Coders/advanced-course-2024/tree/master/lesson2) for lesson details and activities for this lesson.
+
+
+-----
+
+
 Hello again, budding programmers! It's time to take a thrilling ride through the core concepts of programming: If Statements and Loops. By integrating these with Streamlit, we'll create interactive apps that respond and iterate like never before! 🤩🔄  
    
 ## Objective 🎯  

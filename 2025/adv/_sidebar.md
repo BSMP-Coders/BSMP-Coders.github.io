@@ -13,7 +13,16 @@
 * [Lesson 7 - Copilot Vid Story](/2025/adv/lesson7/lesson7.md)
 * [Lesson 8 - Realistic Vid Azure Sora](/2025/adv/lesson8/lesson8.md)
 * [Lesson 9 - AI Literacy](/2025/adv/lesson9/lesson9.md)
-  
+
+<details>
+<summary>Additional Learning</summary>
+
+  * **Building AI Chat Apps**
+  * * [Flask AI Chat Web App](/2025/adv/chatapps/flask_web_chat_app.md)
+  * * [React AI Chat Web App](/2025/adv/chatapps/react_web_chat_app.md)
+  * [other examples](/2025/adv/lesson7/other_examples.md)
+</details>
+
 <!--
 ---  
 * [**Week 3 - Storytelling with AI**](/dev25/storytelling_with_ai/week3_storytelling_with_ai.md)

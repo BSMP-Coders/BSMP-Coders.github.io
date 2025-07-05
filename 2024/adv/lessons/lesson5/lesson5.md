@@ -1,6 +1,14 @@
 <!-- /lessons/lesson5/lesson5_intro.md-->  
 # Lesson 5: Creating an AI-Driven Flask Web App 🚀  
-   
+
+> [!LESSON_REPO]
+>
+> Refer to this <i class="fab fa-github"></i> [Lesson Repository](https://github.com/BSMP-Coders/advanced-course-2024/tree/master/lesson5) for lesson details and activities for this lesson.
+
+
+-----
+
+
 Welcome to Lesson 5, young coders! Today, we're going to combine the power of Python, Flask, and Azure's OpenAI to create an AI-driven web application. By the end of this lesson, you'll have built a Flask web app that can interact with users and provide intelligent responses using Azure's AI. Let's get started on building your own AI assistant! 🤖✨  
    
 ## Objective 🎯  

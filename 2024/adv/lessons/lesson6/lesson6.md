@@ -1,5 +1,13 @@
 # Lesson 6: Advanced ChatGPT / Generative AI Tools 🌟  
-   
+
+> [!LESSON_REPO]
+>
+> Refer to this <i class="fab fa-github"></i> [Lesson Repository](https://github.com/BSMP-Coders/advanced-course-2024/tree/master/lesson6) for lesson details and activities for this lesson.
+
+
+-----
+
+
 ## Overview 🌐  
    
 Welcome to Lesson 6! In this lesson, we will dive into advanced AI tools and explore their exciting applications. Whether it's generating images, enhancing text, or creating art, you'll learn how to implement these powerful tools in your projects. 🚀  

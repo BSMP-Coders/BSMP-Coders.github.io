@@ -1,5 +1,13 @@
 # Lesson 7: Computer Vision 👁️  <!-- {docsify-ignore-all} -->
-   
+
+> [!LESSON_REPO]
+>
+> Refer to this <i class="fab fa-github"></i> [Lesson Repository](https://github.com/BSMP-Coders/advanced-course-2024/tree/master/lesson7) for lesson details and activities for this lesson.
+
+
+-----
+
+
 ## Overview 🌐  
    
 Welcome to Lesson 7! This lesson introduces you to the fascinating world of computer vision. You'll learn the basics, explore practical examples, and implement a project using Python libraries. 🖼️  

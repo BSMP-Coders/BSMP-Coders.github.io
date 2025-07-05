@@ -1,5 +1,13 @@
 # Lesson 3: Streamlit + ChatGPT Integration 🤖💬  
-   
+
+> [!LESSON_REPO]
+>
+> Refer to this <i class="fab fa-github"></i> [Lesson Repository](https://github.com/BSMP-Coders/advanced-course-2024/tree/master/lesson3) for lesson details and activities for this lesson.
+
+
+-----
+
+
 Welcome to Lesson 3 of the BSMP24 Advanced Coding Program! Today, we will explore the fascinating world of chatbots by integrating Streamlit with OpenAI's ChatGPT. Get ready to build your very own interactive chat application! 🌟  
    
 ## Objective 🎯  

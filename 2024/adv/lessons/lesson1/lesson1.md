@@ -1,5 +1,13 @@
 # Lesson 1: Introduction to GitHub, VS Code, and Streamlit 🚀  <!-- {docsify-ignore-all} -->
-   
+
+> [!LESSON_REPO]
+>
+> Refer to this <i class="fab fa-github"></i> [Lesson Repository](https://github.com/BSMP-Coders/advanced-course-2024/tree/master/lesson1) for lesson details and activities for this lesson.
+
+
+-----
+
+
 Welcome to the BSMP24 Advanced Coding Program! Your adventure into coding begins here, as we explore GitHub, VS Code, and Streamlit. Ready to unlock your coding prowess and start creating? 🌟  
    
 ## Objective 🎯  
