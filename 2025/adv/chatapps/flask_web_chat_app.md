@@ -1,4 +1,4 @@
-# Flask GPT with a React UI Demo
+# Flask GPT with a React UI Demo <!-- {docsify-ignore-all} -->
 
 > [!LESSON_REPO]
 >

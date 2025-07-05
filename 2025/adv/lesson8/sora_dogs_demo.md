@@ -1,5 +1,14 @@
 ## Sora Dogs Demo <!-- {docsify-ignore-all} -->
-   
+
+> [!NOTE] Earn a digital badge by completing this assignment 
+> 
+> * [Microsoft Learn Module - Generate images with AI](https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/?source=recommendations)
+>
+> * [Microsoft Learn Module - Breathing life into stories - character and dialogue creation with Azure](https://learn.microsoft.com/en-us/training/modules/breathing-life-into-stories/)
+> 
+> * [Microsoft Learn Module - Animate Images with Sora](https://learn.microsoft.com/en-us/training/modules/animate-impossible/?source=recommendations)
+
+
 ### 🎓 In class live demo
 
 This demo presents a storyboard prompt for 'Chill Vibes for Shelter Dogs'. The concept involves an AI music generator that detects dog emotions and plays calming music. The storyboard outlines the beginning with anxious dogs in a shelter, the calming middle with responsive music, and the heartwarming end where a dog finds a home, highlighting the comfort AI can provide.

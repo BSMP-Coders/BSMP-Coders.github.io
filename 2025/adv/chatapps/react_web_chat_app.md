@@ -1,4 +1,4 @@
-# TypeScript Backend Chat App
+# TypeScript Backend Chat App <!-- {docsify-ignore-all} -->
 
 > [!LESSON_REPO]
 >

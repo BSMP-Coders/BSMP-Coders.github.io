@@ -3,6 +3,9 @@
 ### 📍 Introduction  
 Welcome to Lesson 8! In this session, we explore how to use Azure AI Foundry and OpenAI’s Sora model to create compelling AI-generated video stories. This lesson builds on the storytelling foundations from Lesson 7 and introduces advanced prompt engineering for video generation.
 
+> [!NOTE] Earn a digital badge by completing this assignment 
+> [Microsoft Learn Module - Animate Images with Sora](https://learn.microsoft.com/en-us/training/modules/animate-impossible/?source=recommendations)
+
 
 
 ### What Is OpenAI's Sora? How It Works, Examples, Features

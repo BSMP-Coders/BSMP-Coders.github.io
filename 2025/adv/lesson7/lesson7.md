@@ -3,6 +3,14 @@
 ## Introduction
 Welcome to Lesson 7 of our advanced course! In this lesson, we will explore the capabilities of Microsoft Copilot Create and delve into the fascinating world of AI storytelling. This lesson is designed to help you understand how to use AI tools to create compelling stories and enhance your creative projects.
 
+> [!NOTE] Earn a digital badge by completing this assignment 
+> 
+> * [Microsoft Learn Module - Generate images with AI](https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/?source=recommendations)
+>
+> * [Microsoft Learn Module - Breathing life into stories - character and dialogue creation with Azure](https://learn.microsoft.com/en-us/training/modules/breathing-life-into-stories/)
+> 
+> * [Microsoft Learn Module - Animate Images with Sora](https://learn.microsoft.com/en-us/training/modules/animate-impossible/?source=recommendations)
+
 ## Agenda
 1. Introduction to Microsoft Copilot Create
 * Overview of Copilot Create features
