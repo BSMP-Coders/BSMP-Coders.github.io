@@ -1,8 +1,6 @@
 ![](/_media/logos/bsmp_coders_banner.svg)
 
-# Welcome to the BSMP25 Coding & AI Build Academy 👋
-
-!> | **Learn** | **Build** | **Create** | 
+# Welcome to the BSMP25 Coding & AI Build Academy 👋 <!-- {docsify-ignore-all} -->
 
 Welcome to the **BSMP25 Coding & AI Build Academy**, part of the 2025 **BAM Summer Mentorship Program (BSMP)** powered by Microsoft. This exciting, hands-on program invites high school students to explore the world of programming and artificial intelligence through our **Learn, Build, Create** journey.
 
@@ -44,11 +42,10 @@ By the end of this program, you will:
 
 We offer two tailored learning tracks, so you can join the level that fits you best:
 
-* **Intermediate Track** 🟡
-  Take your skills to the next level by building web apps, using APIs, and collaborating through GitHub.
+* 👉 [**Intermediate Track**](/2025/intermediate/lesson_summary.md) - Use Python, GitHub Copilot, and AI tools to build web apps, games, and data-driven stories — no experience needed!
+* 👉 [**Advanced Track**](/2025/adv/lesson_summary.md) - Dive deep into AI integration, real-time web tools, and creative coding. Ideal for students with Python and web dev experience.
 
-* **Advanced Track** 🔴
-  Dive deep into AI integration, real-time web tools, and creative coding. Ideal for students with Python and web dev experience.
+!> Check out the course lessons for [**Advanced Class**](/2025/adv/lesson_summary.md) and [**Intermediate Class**](/2025/intermediate/lesson_summary.md)
 
 ---
 
@@ -66,8 +63,8 @@ Your capstone project is a **5-minute video presentation** showcasing your codin
 
 **Prizes**:
 - 🥇 First Place: \$100 Gift Card  
-- 🥈 Second Place: \$50 Gift Card  
-- 🥉 Third Place: \$25 Gift Card  
+- 🥈 Second Place: \$75 Gift Card  
+- 🥉 Third Place: \$50 Gift Card  
 
 All projects are due by **Tuesday, July 29**, and will be presented at your local BSMP chapter.
 

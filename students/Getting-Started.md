@@ -1,6 +1,6 @@
 ![](../_media/logos/bsmp_coders_banner.svg)
 
-# Getting Started with this course
+# Getting Started with this course <!-- {docsify-ignore-all} -->
 
 👋 We are very excited for you to start this course and see what you get inspired to build with python and AI!
 

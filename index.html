@@ -6,7 +6,8 @@
   <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>BSMP Advanced</title>  
+  <!--<title>BSMP Advanced</title>  -->
+  <title>BSMP25 Code & AI Build Academy</title>
   <meta name="description" content="Description">  
   <!-- Vue -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">  
@@ -17,7 +18,7 @@
   <div id="app"></div>  
   <script>  
     window.$docsify = {  
-      name: 'BSMP Advanced',  
+      name: 'BSMP25 Code & AI Build Academy',  
       repo: 'https://github.com/BSMP-Coders',  
       loadSidebar: true,  
       alias: {
@@ -32,8 +33,8 @@
       auto2top: true,  
       routerMode: 'hash',  // Change this to 'hash'  
       //logo: '/_media/BAM_logo.png',
-      logo: '/_media/logos/bam_coding_logo.png',
-      //logo: '/_media/v25/media/bsmp25_logo.png',
+      //logo: '/_media/logos/bam_coding_logo.png',
+      logo: '/_media/v25/media/bsmp25_logo.png',
       mergeNavbar: true,
       nativeEmoji: true,
       tabs: {theme: 'classic'},
@@ -71,20 +72,52 @@
         className: 'note'
       },
 
+      lesson_repo: {
+        icon: "fab fa-github", // Requires Font Awesome or a custom icon
+        //icon: "fas fa-code", // </>
+        //icon: "fas fa-terminal", // >_
+        //icon: "fas fa-folder-open", // 📂
+        //label:'📦 Lesson Repository',
+        label:'Lesson Repository',
+        className: 'tip lesson_repo'
+        //className: 'tip'
+        //className: 'note' 
+      },
+      lessonidk: {
+        icon: "fab fa-github", // Requires Font Awesome or a custom icon
+        //icon: "fas fa-code", // </>
+        //icon: "fas fa-terminal", // >_
+        //icon: "fas fa-folder-open", // 📂
+        label:'📝 Lesson Repository',
+        //className: 'tip'
+        //className: 'info' 
+        className: 'lesson_repo'
+      },
+
+      ph_todo: {
+        icon: "fas fa-tasks", // Requires Font Awesome or a custom icon
+        label:'⚠️PH TODO FOR PROD⚠️',
+        //className: 'warning'
+        className: 'ph_todo'
+      },
+
 
     },
     };  
-      // Custom script to change logo based on route
-  window.addEventListener('hashchange', function() {
-    if (location.hash.includes('dev25')) {
-      document.querySelector('.app-name-link img').src = '/_media/v25/media/bsmp25_logo.png';
-    } else {
-      document.querySelector('.app-name-link img').src = '/_media/logos/bam_coding_logo.png';
-    }
-  });
+    
+    
+    // Custom script to change logo based on route
+    // window.addEventListener('hashchange', function() {
+    //   if (location.hash.includes('dev25')) {
+    //     document.querySelector('.app-name-link img').src = '/_media/v25/media/bsmp25_logo.png';
+    //   } else {
+    //     document.querySelector('.app-name-link img').src = '/_media/logos/bam_coding_logo.png';
+    //   }
+    // });
 
-  // Trigger the event on initial page load
-  window.dispatchEvent(new Event('hashchange'));
+    // Trigger the event on initial page load
+    //window.dispatchEvent(new Event('hashchange'));
+    
   </script>  
   <!-- Required: docsify + docsify-themeable -->
   <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -94,5 +127,7 @@
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
   <!-- awesome font-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- dev styles for markdown -->
+  <link href="/dev_ph/styles.css" rel="stylesheet">
 </body>  
 </html>  

@@ -1,0 +1,16 @@
+.markdown-section .tip.lesson_repo {
+  border-left-color: #6cc644; /* GitHub green */
+  background-color: #f0f8f5;
+}
+
+.markdown-section .lesson_repo {
+  border-left-color: #4a44c6; /* GitHub green */
+  border-color: #4a44c6;
+  background-color: #f8f6f0;
+}
+
+.markdown-section .ph_todo {
+  border-left-color: #4a44c6; /* GitHub green */
+  border-color: #c64444;
+  background-color: #f8f6f0;
+}

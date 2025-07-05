@@ -1,0 +1,7 @@
+# Lesson Plan Overview  
+  
+| Day      | Focus                                   | Tools                                                                 | Key Concepts                                                                                               |  
+|----------|-----------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|  
+| Lesson 7 | [**Intro to AI Storytelling**](/dev25/lesson7/prod/lesson7.md)            | M365 Copilot (Word, PowerPoint), Clipchamp, Bing Image Creator       | Story structure, prompt engineering, multimodal storytelling                                              |  
+| Lesson 8 | [**Create with Azure AI Foundry + Sora**](/dev25/lesson8/prod/lesson8.md) | Azure AI Foundry (Sora, DALL-E, TTS), Clipchamp                      | AI models for text-to-video/audio/image, integration with video editors                                   |  
+| Lesson 9 | [**Showcase + AI Literacy**](/dev25/lesson9/prod/lesson9.md)              | All tools used                                                       | Presentation skills, ethical AI, digital literacy                                                          |  

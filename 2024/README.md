@@ -1,6 +1,6 @@
-![](/_media/logos/bsmp_coders_banner.svg)
+![](/../_media/logos/bsmp_coders_banner.svg)
 
-# BSMP24 Coding Program: Overview 🚀 
+# BSMP24 Coding Program: Overview 🚀 <!-- {docsify-ignore-all} -->
 
 
 ## Key Components 🔧  
@@ -45,7 +45,7 @@ We offer three levels of instruction to meet you where you are:
 ## Final Coding Project  📅  
 The program spans 4-6 weeks, with classes held twice a week, culminating in a grand student video project presentation.
 
-Learn more [👉 Final Coding Video Presentation Detials](/lessons/student_video_project/final_projects.md)
+Learn more [👉 Final Coding Video Presentation Detials](/2024/program/final_projects.md)
 
 
 ## Get Ready to Innovate! 🚀  

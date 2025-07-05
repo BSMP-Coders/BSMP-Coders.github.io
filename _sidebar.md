@@ -1,14 +1,18 @@
-* [About Program](program/bspm24_coding_program.md)
+* [**BSMP25 Code & AI Program**](/2025/README.md)
+* [🚀 Student Video Project (Tues, July 29th)](/2025/program/final_projects.md)
 
-- [Lessons](lessons/lesson_summary.md)
-- [👉 Final Coding Video Presentation Detials](/lessons/student_video_project/final_projects.md)
+----- 
+* **2025 Classes**
+* [Intermediate Class](/2025/intermediate/lesson_summary.md)
+* [Advanced Class](/2025/adv/lesson_summary.md)
 
+---
 * **For Students 🧑‍🎓🚀**
-  * [Getting Started with GitHub and GitHub Copilot](students/github_copilot_setup.md)
-  * [Getting Started with this course](students/Getting-Started.md)
-  * [Coding Schedule](program/coding_class_time_schedule.md)
-  * [Coding Office Hours](program/bsmp_coding_office_hrs.md)
+  * [Getting Started with GitHub and GitHub Copilot](/students/github_copilot_setup.md)
+  * [Getting Started with this course](/students/Getting-Started.md)
+  * [Coding Schedule](/2025/program/coding_class_time_schedule.md)
+  * [Coding Office Hours](/2025/program/bsmp_coding_office_hrs.md)
 
 
 * **Coding Instructors 🧑‍🏫**
-  * [Coding Instructors](/program/coding_program_admins.md)
+  * [Coding Instructors](/2025/program/coding_program_admins.md)

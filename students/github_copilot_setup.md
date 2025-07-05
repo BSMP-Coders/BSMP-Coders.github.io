@@ -1,4 +1,4 @@
-# 🎓 Getting Started with GitHub for BSMP Coding Course  
+# 🎓 Getting Started with GitHub for BSMP Coding Course  <!-- {docsify-ignore-all} -->
    
 Welcome to the BAM Summer Mentorship Program (BSMP) Coding Course! 🌟 Let's get you all set up with GitHub, GitHub Student Pack, and GitHub Copilot so you can start your coding journey. 🚀  
    

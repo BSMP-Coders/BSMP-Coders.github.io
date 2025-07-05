@@ -1,5 +1,14 @@
-* [Course Lesson Overviews](/dev25/lesson_summary.md)
-* [🚀 Student Video Project (last Tues of Chapter BSMP)](/dev25/program2025/final_projects.md)  
+* [**BSMP25 Code & AI Program**](/2025/README.md)
+* [🚀 Student Video Project (Tues, July 29th)](/2025/program/final_projects.md)
+
+----- 
 
 * [Intermediate Class](/2025/intermediate/lesson_summary.md)
 * [Advanced Class](/2025/adv/lesson_summary.md)
+
+---
+* **For Students 🧑‍🎓🚀**
+  * [Getting Started with GitHub and GitHub Copilot](/students/github_copilot_setup.md)
+  * [Getting Started with this course](/students/Getting-Started.md)
+  * [Coding Schedule](/2025/program/coding_class_time_schedule.md)
+  * [Coding Office Hours](/2025/program/bsmp_coding_office_hrs.md)

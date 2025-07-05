@@ -10,8 +10,9 @@
 
 </details>
 
-[🚀 Get Started](students/Getting-Started.md)
+[🚀 Get Started](/students/Getting-Started.md)
 [👉Check out GitHub BSMP-Coders](https://github.com/BSMP-Coders) 
-[🧑‍🏫 About BSPM](program/bspm24_coding_program.md) 
-[📘 Lesson Plan](/lessons/lesson_summary.md)
+[🧑‍🏫 About BSPM 2025](/2025/README.md) 
+<!--[🧑‍🏫 About BSPM](program/bspm24_coding_program.md) 
+[📘 Lesson Plan](/lessons/lesson_summary.md)-->
 <!--[📘 Learning Resources](/program/learning_resources.md)⚠️-->

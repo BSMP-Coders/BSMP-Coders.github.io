@@ -1,9 +1,14 @@
-* [**BSMP 2025 Code & AI Academy**](/dev25/lesson_summary.md)
-* [**Intermediate**](/dev25/lesson_summary.md)
+* [**BSMP 2025 Code & AI Academy**](/2025/README.md)
+* [**Intermediate**](/2025/intermediate/lesson_summary.md)
 * [**Advanced**](/2025/adv/lesson_summary.md)
-* **BSMP Archive**
-  * [2024](/program/bspm24_coding_program.md)
-  * [2024-new](/2024/README.md)
+* **Course Archive**
+  * [2025 (current)](/2025/README.md)
+  * [2024](/2024/README.md)
+<!--- ⚠️ TODO: remove late 
+* **⚠️PH DEV**
+  * [ph_dev_ideas](/dev_ph/ph_dev_ideas.md)
+  * [template](/dev_ph/template.md)
+--->
 
 <!---
 

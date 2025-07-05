@@ -1,50 +1,92 @@
 ![](/_media/logos/bsmp_coders_banner.svg)
 
-# BSMP24 Advanced Coding Program: Overview 🚀 
-   
-Welcome to the BSMP24 Advanced Coding Program, an integral part of the 2024 BAM Summer Mentorship Program (BSMP) by Microsoft. This comprehensive course is designed to elevate your skills in advanced Python programming, web app development, and AI tools integration. Led by a team of dedicated instructors, including Phillip Hale for the advanced level, and supported by on-site instructors and BAM student mentors, this program promises an enriching learning experience. 🌟  
-   
-## Key Components 🔧  
-   
-- **GitHub Copilot**: For intelligent code suggestions and completions.  
-- **VSCode**: The primary code editor to streamline your coding experience.  
-- **Python**: Our core programming language for all activities and projects.  
-- **AI and ChatGPT**: Tools for building smart, interactive applications.  
-   
-## Learning Outcomes 🎓  
-   
-By the end of this program, you will have:  
-   
-- Gained interactive learning experience in Python programming and web development.  
-- Acquired practical skills in using AI tools and integrating them into applications.  
-- Developed and presented end-to-end coding projects demonstrating your learning and creativity.  
-   
-## Lesson Plan 📚  
+# Welcome to the BSMP25 Coding & AI Build Academy 👋 <!-- {docsify-ignore-all} -->
 
-Here's a sneak peek into our structured lesson plan: 👉 [here are the details on the lessons](/lessons/lesson_summary.md)
+Welcome to the **BSMP25 Coding & AI Build Academy**, part of the 2025 **BAM Summer Mentorship Program (BSMP)** powered by Microsoft. This exciting, hands-on program invites high school students to explore the world of programming and artificial intelligence through our **Learn, Build, Create** journey.
 
-1. [**Intro to GitHub, VS Code, and Streamlit**](/lessons/lesson1/lesson1.md) - Introduce students to GitHub, VS Code, and creating a simple app with Python and Streamlit.
-2. [**Python Fundamentals with Streamlit**](/lessons/lesson2/lesson2.md) - Cover basic Python concepts such as if statements, functions, and loops, integrating them with Streamlit.
-3. [**Streamlit + ChatGPT Integration**](/lessons/lesson3/lesson3.md) - Build a basic chatbot using Streamlit and OpenAI's ChatGPT.
-4. [**Flask Basics and Interactive Game Development**](/lessons/lesson4/lesson4_early.md) - Understand Flask basics and develop an interactive game using GitHub Copilot.
-5. [**Flask and Azure OpenAI Integration**](/lessons/lesson5/lesson5_early.md) - Build an autocomplete web app using Flask and Azure OpenAI.
-6. [**Advanced ChatGPT / Generative AI Tools**](/lessons/lesson6/lesson6_early.md) - Explore advanced AI tools and their applications.
-7. [**Computer Vision**](/lessons/lesson7/lesson7_early.md) - Introduce computer vision concepts and applications using Python.
-8. [**Final Project Preparation and Updates**](/lessons/student_video_project/README_early.md) - Prepare students for their final projects.
-9. [**Student Video Coding Project Presentation**](/lessons/student_video_project/final_projects.md) - Students present their final projects. 
+Whether you’re a beginner just starting your coding path or an advanced student ready to take on AI-integrated projects, this academy is designed to unlock your creativity and technical potential. Led by dedicated Microsoft mentors, instructors, and on-site support staff, you’ll gain skills that go far beyond the summer.
+
+---
+
+## Courses Offered 📚
+
+We offer two tailored learning tracks, so you can join the level that fits you best:
+
+* 👉 [**Intermediate Track**](/2025/intermediate/lesson_summary.md) - Use Python, GitHub Copilot, and AI tools to build web apps, games, and data-driven stories — no experience needed!
+* 👉 [**Advanced Track**](/2025/adv/lesson_summary.md) - Dive deep into AI integration, real-time web tools, and creative coding. Ideal for students with Python and web dev experience.
+
+!> Check out the course lessons for [**Advanced Class**](/2025/adv/lesson_summary.md) and [**Intermediate Class**](/2025/intermediate/lesson_summary.md)
 
 
+---
 
-## Final Coding Project  📅  
-The program spans 4-6 weeks, with classes held twice a week, culminating in a grand student video project presentation.
+## Program Themes 🎯
 
-Learn more [👉 Final Coding Video Presentation Detials](/lessons/student_video_project/final_projects.md)
+* **Learn**: Grasp the fundamentals of Python, AI, and web technologies in a collaborative, student-friendly environment.
+* **Build**: Use GitHub Copilot, Visual Studio Code, and modern frameworks to build real web apps and AI-powered tools.
+* **Create**: Design and present original coding projects that solve real problems or bring your imagination to life.
 
+---
 
-## Get Ready to Innovate! 🚀  
+## Key Components 🔧
 
-Prepare to unlock a new realm of possibilities by combining your coding skills with the intelligent processing power of AI. We're excited to see what you'll build and present!  
+* **GitHub Copilot**: AI-powered code assistant that helps you write faster and smarter.
+* **VSCode**: The professional-grade editor we’ll use throughout the course.
+* **Python**: Our core programming language—versatile, powerful, and beginner-friendly.
+* **Web App Development**: Learn how to create interactive web apps using Python, HTML, and JavaScript.
+* **AI Tools**: Experiment with ChatGPT, Azure AI, and GitHub Copilot to create intelligent and creative applications.
 
------
+---
 
-Embark on this coding odyssey with us. Your future as a tech trailblazer awaits! 🌟👩‍💻👨‍💻
+## Learning Outcomes 🎓
+
+By the end of this program, you will:
+
+* Gain hands-on experience in Python programming and web development.
+* Understand the foundations of AI and how to apply them in real-world tools.
+* Build and deploy your own projects using GitHub and Microsoft technologies.
+* Present your work to mentors and peers in a final showcase video.
+* Walk away with a GitHub portfolio that shows off your new skills.
+
+---
+
+## Final Coding Project 📅
+
+The program culminates in a **Final Video Showcase Project**, where each student or team will present a complete web or AI application. Your project should highlight what you’ve **learned**, what you’ve **built**, and what you’ve **created**—from idea to implementation.
+
+Learn more: [👉 Final Coding Video Presentation Details](/2025/program/final_projects.md)
+
+---
+
+## 🎥 Final Coding & AI Video Project
+
+Your capstone project is a **5-minute video presentation** showcasing your coding and AI skills. You can build on a class assignment or create something entirely new. Projects will be judged on creativity, technical execution, and storytelling.
+
+**Prizes**:
+- 🥇 First Place: \$100 Gift Card  
+- 🥈 Second Place: \$75 Gift Card  
+- 🥉 Third Place: \$50 Gift Card  
+
+!> All projects are due by **`Monday, July 28 @ Midnight`**, and will be presented at your local BSMP chapter.
+
+---
+
+## 🗓️ Program Schedule
+
+- **Start Date**: Monday, July 7, 2025  
+- **End Date**: Thursday, July 31, 2025  
+- **Class Days**: Mondays, Tuesdays, and Thursdays  
+- **Time**: 11:00 AM EST (10AM CST)
+- **Office Hours**: Fridays at 3:00 PM EST  
+
+---
+
+## Get Ready to Innovate! 🚀
+
+Prepare to unlock a new realm of possibilities by combining your coding skills with the intelligent processing power of AI. We're excited to see the apps, games, tools, and innovations you’ll bring to life this summer.
+
+---
+
+## Embark on the Journey 🌟👨‍💻👩‍💻
+
+We’re thrilled to have you in the BSMP25 Coding & AI Build Academy. It’s your time to learn boldly, build creatively, and create with purpose. Let’s get started!
