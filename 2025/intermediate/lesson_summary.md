@@ -10,15 +10,29 @@ You'll gain hands-on experience with GitHub, AI literacy concepts, and Python-ba
 
 ### Below is a summary of our lesson plans:
 
+#### Week 1
 1. [Lesson 1 – Intro to GitHub/Copilot​](/2025/intermediate/lessons/lesson1.md)
 2. [Lesson 2 – Intro to Generative AI, Build a Simple Text Game](/2025/intermediate/lessons/lesson2.md) ​
 3. [Lesson 3 – Build a Web Application](/2025/intermediate/lessons/lesson3.md)
+
+[GitHub Badge](https://learn.microsoft.com/en-us/plans/4m55uxtr48171m?sharingId=F67AE3DA365A6582)
+Make sure to login with your personal email account not your BAM accoujnt.
+
+#### Week 2
 4. [Lesson 4 – AI Literacy: Building Narrative Part 1​](/2025/intermediate/lessons/lesson4.md)
-5. [Lesson 5 – AI Literacy: Building Narrative Part 2​](/2025/intermediate/lessons/lesson5.md)
-6. [Lesson 6 – Future of Work​](/2025/intermediate/lessons/lesson6.md)
-7. [Lesson 7 – Build Data Visualizations​](/2025/intermediate/lessons/lesson7.md)
-8. [Lesson 8 – Build Simple Graphical Python Game](/2025/intermediate/lessons/lesson8.md)
-9. [Lesson 9 – Final Project Preparation Discussion](/2025/intermediate/lessons/lesson9.md)
+6. [Lesson 5 – AI Literacy: Building Narrative Part 2​](/2025/intermediate/lessons/lesson5.md)
+7. [Lesson 6 – Future of Work​](/2025/intermediate/lessons/lesson6.md)
+
+GitHub Badge
+Make sure to login with your personal email account not your BAM accoujnt.
+
+#### Week 3
+8. [Lesson 7 – Build Data Visualizations​](/2025/intermediate/lessons/lesson7.md)
+9. [Lesson 8 – Build Simple Graphical Python Game](/2025/intermediate/lessons/lesson8.md)
+10. [Lesson 9 – Final Project Preparation Discussion](/2025/intermediate/lessons/lesson9.md)
+
+GitHub Badge
+Make sure to login with your personal email account not your BAM accoujnt.
 
 ### Key Learning Outcomes:
 
