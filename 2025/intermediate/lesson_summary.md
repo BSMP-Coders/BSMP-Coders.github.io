@@ -20,16 +20,16 @@ Make sure to login with your personal email account not your BAM accoujnt.
 
 #### Week 2
 4. [Lesson 4 – AI Literacy: Building Narrative Part 1​](/2025/intermediate/lessons/lesson4.md)
-6. [Lesson 5 – AI Literacy: Building Narrative Part 2​](/2025/intermediate/lessons/lesson5.md)
-7. [Lesson 6 – Future of Work​](/2025/intermediate/lessons/lesson6.md)
+5. [Lesson 5 – AI Literacy: Building Narrative Part 2​](/2025/intermediate/lessons/lesson5.md)
+6. [Lesson 6 – Future of Work​](/2025/intermediate/lessons/lesson6.md)
 
 GitHub Badge
 Make sure to login with your personal email account not your BAM accoujnt.
 
 #### Week 3
-8. [Lesson 7 – Build Data Visualizations​](/2025/intermediate/lessons/lesson7.md)
-9. [Lesson 8 – Build Simple Graphical Python Game](/2025/intermediate/lessons/lesson8.md)
-10. [Lesson 9 – Final Project Preparation Discussion](/2025/intermediate/lessons/lesson9.md)
+7. [Lesson 7 – Build Data Visualizations​](/2025/intermediate/lessons/lesson7.md)
+8. [Lesson 8 – Build Simple Graphical Python Game](/2025/intermediate/lessons/lesson8.md)
+9. [Lesson 9 – Final Project Preparation Discussion](/2025/intermediate/lessons/lesson9.md)
 
 GitHub Badge
 Make sure to login with your personal email account not your BAM accoujnt.
