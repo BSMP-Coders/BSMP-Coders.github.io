@@ -16,7 +16,7 @@ You'll gain hands-on experience with GitHub, AI literacy concepts, and Python-ba
 3. [Lesson 3 – Build a Web Application](/2025/intermediate/lessons/lesson3.md)
 
 [GitHub Badge](https://learn.microsoft.com/en-us/plans/4m55uxtr48171m?sharingId=F67AE3DA365A6582)
-Make sure to login with your personal email account not your BAM accoujnt.
+Make sure to login with your personal email account not your BAM account.
 
 #### Week 2
 4. [Lesson 4 – AI Literacy: Building Narrative Part 1​](/2025/intermediate/lessons/lesson4.md)
@@ -24,7 +24,7 @@ Make sure to login with your personal email account not your BAM accoujnt.
 6. [Lesson 6 – Future of Work​](/2025/intermediate/lessons/lesson6.md)
 
 GitHub Badge
-Make sure to login with your personal email account not your BAM accoujnt.
+Make sure to login with your personal email account not your BAM account.
 
 #### Week 3
 7. [Lesson 7 – Build Data Visualizations​](/2025/intermediate/lessons/lesson7.md)
@@ -32,7 +32,7 @@ Make sure to login with your personal email account not your BAM accoujnt.
 9. [Lesson 9 – Final Project Preparation Discussion](/2025/intermediate/lessons/lesson9.md)
 
 GitHub Badge
-Make sure to login with your personal email account not your BAM accoujnt.
+Make sure to login with your personal email account not your BAM account.
 
 ### Key Learning Outcomes:
 
