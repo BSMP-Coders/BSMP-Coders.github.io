@@ -15,8 +15,9 @@ You'll gain hands-on experience with GitHub, AI literacy concepts, and Python-ba
 2. [Lesson 2 – Intro to Generative AI, Build a Simple Text Game](/2025/intermediate/lessons/lesson2.md) ​
 3. [Lesson 3 – Build a Web Application](/2025/intermediate/lessons/lesson3.md)
 
-[GitHub Badge](https://learn.microsoft.com/en-us/plans/4m55uxtr48171m?sharingId=F67AE3DA365A6582)
+- [GitHub Badge](https://learn.microsoft.com/en-us/plans/4m55uxtr48171m?sharingId=F67AE3DA365A6582)
 Make sure to login with your personal email account not your BAM account.
+- [Apply for your GitHub Student Developer Pack](https://education.github.com/pack)
 
 #### Week 2
 4. [Lesson 4 – AI Literacy: Building Narrative Part 1​](/2025/intermediate/lessons/lesson4.md)
