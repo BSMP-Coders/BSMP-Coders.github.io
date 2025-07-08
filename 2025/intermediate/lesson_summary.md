@@ -30,7 +30,7 @@ Make sure to login with your personal email account not your BAM account.
 7. [Lesson 7 – Build Simple Graphical Python Game](/2025/intermediate/lessons/lesson7.md)
 8. [Lesson 8 – Final Project Preparation Discussion](/2025/intermediate/lessons/lesson8.md)
 9. [Lesson 9 – Future of Work​](/2025/intermediate/lessons/lesson9.md)
-10. [Lesson 10 – Final Project Preparation Discussion](/2025/intermediate/lessons/lesson10.md)
+10. Lesson 10 – Final Project Preparation Office Hours
 
 GitHub Badge
 Make sure to login with your personal email account not your BAM account.
