@@ -24,8 +24,9 @@ Make sure to login with your personal email account not your BAM account.
 5. [Lesson 5 – AI Literacy: Building Narrative Part 2​](/2025/intermediate/lessons/lesson5.md)
 6. [Lesson 6 – Build Data Visualizations​](/2025/intermediate/lessons/lesson6.md)
 
-GitHub Badge
+- [GitHub Badge](https://learn.microsoft.com/en-us/plans/mq33s7t761kx1n?sharingId=F67AE3DA365A6582)
 Make sure to login with your personal email account not your BAM account.
+- [Apply for your GitHub Student Developer Pack](https://education.github.com/pack)
 
 #### Week 3
 7. [Lesson 7 – Build Simple Graphical Python Game](/2025/intermediate/lessons/lesson7.md)
