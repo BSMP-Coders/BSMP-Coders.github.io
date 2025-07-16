@@ -8,6 +8,12 @@
 
 > [!WARNING] <!--[!ATTENTION] ⚠️-->  
 > Student Coding Project Submission form: [Link Placeholder]  
+>
+> **Judging Criteria Objectives**
+> * Delivery - preparation and delivery of project/code/demo confidently
+> * Content - presentation clearly identified the problem and presented/demo a solution
+> * Creativity and Originality - the presentation should be creative and original. extra points for those that come up with a unique and interesting way to present their topic, and use code/ai and visualizations in a way that is both informative and engaging.
+> 
 
 <!--
 Students to submit video by the last Tuesday of BSMP Chapter before class
@@ -21,7 +27,7 @@ Student Coding Project Submission form: https://forms.office.com/r/eqjhnYgSS6
 
 
 
-#### 🎓 Advance Past Winners Examples
+#### 🎓 Advance Past Submissions
 
 <!-- tabs:start -->
 
@@ -67,7 +73,7 @@ Student Coding Project Submission form: https://forms.office.com/r/eqjhnYgSS6
 
 
 
-#### 🎓 Intermediate Past Winners Examples
+#### 🎓 Intermediate Past Submissions
 
 <!-- tabs:start -->
 
