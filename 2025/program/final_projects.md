@@ -80,13 +80,22 @@ Student Coding Project Submission form: https://forms.office.com/r/eqjhnYgSS6
 ##### **1**
 
 <video controls style="width:100%; height:auto;">
+    <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/bsmp_proj_vids/Music%20Note%20Guessing%20Game%20-%20BAM%20Dallas%20Individual%20Coding%20Project.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+> YouTube Link: [https://youtu.be/fBKEwl97TbA](https://youtu.be/fBKEwl97TbA)
+
+##### **2**
+
+<video controls style="width:100%; height:auto;">
     <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/bsmp_proj_vids/Raymond%20Shaw.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
 ---
 
-##### **2**
+##### **3**
 
 <video controls style="width:100%; height:auto;">
     <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/bsmp_proj_vids/Ashley%20King%20-%20Final%20Coding%20Project%20Video%20(1).mp4" type="video/mp4">
