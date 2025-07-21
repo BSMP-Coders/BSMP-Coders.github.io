@@ -15,7 +15,8 @@
   * * [AI 4 Good Story Ideas](/2025/adv/storytelling_with_ai/AI4Good_story_ideas.md)
   * * [Prompt Engineering](/2025/adv/storytelling_with_ai/prompt_engineering_guide.md)
 * [Lesson 7 - Copilot Vid Story](/2025/adv/lesson7/lesson7.md)
-  * [in class activity](/2025/adv/lesson7/demo_inclass_dogs.md)
+  * [in class activity](/2025/adv/lesson7/activity.md)
+  * [in class demo](/2025/adv/lesson7/demo_inclass_dogs.md)
   * <details>
 <summary>Support / Guides</summary>
 
