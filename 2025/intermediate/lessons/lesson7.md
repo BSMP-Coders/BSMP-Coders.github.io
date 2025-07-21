@@ -2,7 +2,7 @@
 
 > [!LESSON_REPO]
 >
-> Refer to this <i class="fab fa-github"></i> [Lesson 8 Repository](https://github.com/BSMP-Coders/advanced-intro-githubcopilot) for lesson details and activities for this lesson.
+> Refer to this <i class="fab fa-github"></i> [Lesson 7 Repository](https://github.com/BSMP-Coders/intermediate-continue-your-ai-journey/tree/main/lesson-3.1) for lesson details and activities for this lesson.
 
 
 -----
