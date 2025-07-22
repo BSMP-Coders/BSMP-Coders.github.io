@@ -56,6 +56,14 @@ You can bring images to life by using the image-to-video capability that Veo has
 - AI for Good Themes  
 - Using Azure AI Foundry Playgrounds  
 
+<details>
+<summary>Aditional Resources on Azure AI Foundry</summary>
+
+  * [What is Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry)
+  * [Video Generation - Quickstart](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/video-generation-quickstart)
+  * [Image Generation - Quickstart](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/dall-e-quickstart)
+</details>
+
 ---
 
 ### 🛠️ Tools Used  

@@ -1,108 +1,339 @@
-# 🎮 Week 2, Lesson 5: Build Your First Pygame Project with GitHub Copilot <!-- {docsify-ignore-all} -->
+# Lesson 5 - Flask + Azure Open AI <!-- {docsify-ignore-all} -->
 
 > [!LESSON_REPO]
 >
-> Refer to this <i class="fab fa-github"></i> [Lesson 5 Repository](https://github.com/BSMP-Coders/advanced-game-dev/tree/main/lesson-2) for lesson details and activities for this lesson.
+> Refer to this <i class="fab fa-github"></i> [Lesson 5 Repository](https://github.com/BSMP-Coders/adv-lesson5-chat-apps) for lesson details and activities for this lesson.
 
 -----
 
+## Goals 🎯
+- Understand basic Python and Flask concepts.
+- Learn how to create web applications using Flask.
+- Explore how to integrate Azure OpenAI into your applications.
+- Practice running and testing Flask apps in separate terminals.
 
-## Welcome to your first video game!
-
-You're about to dive into Pygame the Python toolkit that turns your ideas into playable games with graphics, sounds, and all the fun stuff that makes games amazing. This lesson will guide you step-by-step to create something you can actually play and share.
-
-
-## 🎯 What You'll Do
-
-By the end of this lesson, you'll be able to:
-- **Create your first game** - Build a working game using Python and GitHub Copilot
-- **Master GitHub collaboration** - Share your project and give feedback like a pro developer
+## Lesson Overview 📖
+We'll start with creating a simple Flask app with multiple routes, then build an interactive app that echoes messages. Finally, we'll integrate Azure OpenAI to add advanced features like chat and autocomplete.
 
 
-## 🛠️ Setup Checklist
+# Lesson Instructions for coders
 
-So far, you've been working in a cloud-based development tool in the browser called GitHub Codespaces. For this lesson Pygame works best when run locally on a computer, this requires you to use Visual Studio Code and cloning your repository.
+## Lesson quick start
 
-**Step 1: Get Python**
-- Go to the Windows Store and install **Python 3.13**
-- OR open the command line and type `python` (it'll take you to the installation page automatically!)
+all of the lesson code today is in basics folder. so in the termanal to start the frist app do the following
 
-**Step 2: Download Your Code Editor**
-- Download and install **Visual Studio Code** from the Windows Store
-- This will be your game development headquarters!
-
-**Step 3: Connect to Your Project**
-- Open Visual Studio Code
-- Go to **Source Control** > **Clone** (under the three dots)
-- Follow the instructions to fork and clone the repository
-- Now you have your own copy to work with!
-
-**Step 4: Add Your AI Coding Assistant**
-- In VS Code, click the Extensions icon in the Activity Bar
-- Search for **"GitHub Copilot"** and install it
-- Your AI pair programmer is now ready to help!
-
-**Step 5: Add Python Support**
-- Still in Extensions, search for **"Python"** and install it
-- This gives VS Code superpowers for Python development
-
-**Step 6: Test Everything Works**
-- Open the terminal in Visual Studio Code
-- Type `python` and press Enter
-- If you see Python starting up
-
-![Screenshot of Python in the VS Code Terminal](https://raw.githubusercontent.com/BSMP-Coders/advanced-game-dev/refs/heads/main/img/image.png?token=GHSAT0AAAAAADFYKZPI5WRKV66RMO6TRNF62DIK6KA)
-
-**Step 7: Install Game Libraries** 
-- In the terminal, run this magic command:
-  ```bash
-  pip install -r requirements.txt
-  ```
-- This installs Pygame and everything else you need.
-
-
-## 🎲 Choose Your Game Adventure!
-
-Open [main.py](https://github.com/BSMP-Coders/advanced-game-dev/tree/main/lesson-2/main.py) and use these prompts with GitHub Copilot. **Important:** Test your game after each prompt to see your progress!
-
-| 🎮 Game            | 🎯 What You'll Build                                     | 🚀 Step-by-Step Prompts                                                                          |
-|--------------------|---------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| **🏓 Pong**        | Classic two-player paddle battle                       | 1. "Create a window and draw two paddles and a ball"<br>2. "Move paddles with keyboard input"<br>3. "Add ball movement and collision detection" |
-| **🐍 Snake**       | Control a growing snake to eat food                    | 1. "Draw a snake and food on the screen"<br>2. "Move the snake with arrow keys"<br>3. "Detect collisions with food and self" |
-| **🧱 Breakout**    | Bounce a ball to break colorful bricks                 | 1. "Draw a paddle, ball, and a row of bricks"<br>2. "Move the paddle and bounce the ball"<br>3. "Remove bricks when hit by the ball" |
-| **🍎 Catch Fruit** | Catch falling fruits with your basket                   | 1. "Draw a basket and falling fruit"<br>2. "Move the basket with keyboard input"<br>3. "Detect when the basket catches the fruit" |
-
-> **💡 Pro Tip:** Don't rush! After each prompt, run your game and see what happens. This is the best way to learn and catch any issues early.
-
-## How to run your game
-
-In the terminal, type the following commands
-
-```bash
-cd lesson-2
-python main.py
+```sh
+cd basics
+python app1.py
 ```
 
-## 🔎 Share, Collaborate, and Review in GitHub
+### Part 1: Basic Flask App with Multiple Routes
 
- GitHub enables you to work with others and manage projects efficiently through features like Issues, Pull Requests, and Discussions. This is how developers work together to build better software.
+**Objective:** Introduce basic Flask routes and a simple HTML template with buttons, images, and a video.
 
-In the next activity, you'll practice using GitHub's collaboration tools by sharing your project, trying out a classmate's game, and providing constructive feedback through GitHub Issues. 
+**app1.py:**
+```python
+from flask import Flask
 
-### Step 1: Commit & Push Your Game in the Editor
-1. Open the Source Control panel in VS Code. You should see your changes listed and an empty message box
-1. Type something like: "First version of my Pygame project".
-1. Click the Commit button and confirm you see your message in the window.
-1. Click "Sync".
-1. Verify your code made it to the repository.
+app = Flask(__name__)
 
-### Step 2: Try Someone Else's Game
-1. Get your classmate’s GitHub repo link.
-1. Open Source Control and Follow the instructions to clone the repository (no need to fork!)
-1. Open and test their game 
-1. Think about your feedback: What worked well? Any bugs or issues? Suggestions?
+@app.route('/')
+def home():
+    return "Hello, this is a basic Flask app!"
 
-### Step 3: Leave Feedback via GitHub Issues
-1. On your classmate’s GitHub repo page, click the “Issues” tab → New Issue.
-1. In the Description, write out your feedback from step 4.
-1. In the Title, summarize the feedback you wrote.
+@app.route('/page1')
+def page1():
+    message = "Hello, this is a basic Flask app!"
+    return f"""{message}<div></div>
+    <button><a href="/test-ai">Test AI</a></button> <br>
+    <a href="/test-ai">Test AI</a> <br>
+    <a href="/ask">Ask</a> <br>
+    <a href="/chat">Chat</a>"""
+
+HTML_TEMPLATE = """
+<h1>Hello, this is a basic Flask app!</h1>
+<button><a href="/test-ai">Test AI</a></button> <br>
+<img src="https://placehold.co/200x200.png" alt="Placeholder Image"> <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CtdyoH-kvog?si=6lEVlWfIBuNhZhxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+"""
+
+@app.route('/page2')
+def page2():
+    return HTML_TEMPLATE
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+
+**Explanation:**
+- **Multiple Routes:** We have multiple routes (`/`, `/page1`, `/page2`) that return different content.
+- **HTML Template:** The `/page2` route uses an HTML template with a button, an image, and a video.
+
+
+### Part 2: Interactive Echo App with POST Requests
+
+**Objective:** Create an interactive Flask app that handles POST requests and returns responses.
+
+**app2.py:**
+```python
+from flask import Flask, request, jsonify, render_template_string
+import requests
+
+app = Flask(__name__)
+
+HTML_TEMPLATE = '''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Echo App</title>
+</head>
+<body>
+    <h1>Interactive Echo App</h1>
+    <form method="POST" action="/send_echo">
+        <input type="text" name="message" placeholder="Enter your message">
+        <input type="submit" value="Send to Echo Server">
+    </form>
+    {% if result %}
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>
+'''
+
+def send_echo_request(message):
+    url = "http://localhost:5000/echo"
+    data = {"message": message}
+    response = requests.post(url, json=data)
+    if response.status_code == 200:
+        return f"Server responded: {response.json()['response']}"
+    else:
+        return f"Error: Status code {response.status_code}"
+
+@app.route('/')
+def home():
+    return render_template_string(HTML_TEMPLATE)
+
+@app.route('/send_echo', methods=['POST'])
+def send_echo():
+    message = request.form.get('message', '')
+    result = send_echo_request(message)
+    return render_template_string(HTML_TEMPLATE, result=result)
+
+@app.route('/echo', methods=['POST'])
+def echo():
+    data = request.json
+    message = data.get('message', 'No message sent')
+    return jsonify({'response': message})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+**Explanation:**
+- **Interactive Form:** The HTML form sends a message to the Flask server.
+- **Echo Endpoint:** The `/echo` endpoint returns the message received.
+- **POST Requests:** Handles POST requests and returns JSON responses.
+
+**Running the Apps:**
+- Open two terminals.
+- In the first terminal, run `python app2.py` to start the Flask server.
+- In the second terminal, use the script below to send test messages.
+
+**test_app2.py:**
+```python
+from app2 import send_echo_request
+
+# Test the echo endpoint
+print(send_echo_request("Hello, Flask!"))
+print(send_echo_request("Say Phillip in French!"))
+```
+
+### Part 3: Azure OpenAI Chat Model Integration
+
+**Objective:** Integrate Azure OpenAI for advanced chat features.
+
+**app3.py:**
+```python
+from flask import Flask, request, jsonify
+from openai import AzureOpenAI
+import os
+import dotenv
+
+dotenv.load_dotenv()
+
+AOAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+AOAI_KEY = os.getenv("AZURE_OPENAI_API_KEY")
+MODEL_NAME = "gpt-35-turbo"
+
+app = Flask(__name__)
+
+openai_client = AzureOpenAI(api_key=AOAI_KEY, azure_endpoint=AOAI_ENDPOINT, api_version="2024-05-01-preview")
+
+@app.route('/')
+def index():
+    return "Hello, this is a simple Flask server."
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    data = request.get_json()
+    user_input = data.get('user_input', '')
+    response = openai_client.chat.completions.create(
+        model=MODEL_NAME,
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": user_input}
+        ],
+        max_tokens=50,
+        temperature=0.5
+    )
+    suggestions = response.choices[0].message.content
+    return jsonify({'suggestions': suggestions})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+**Explanation:**
+- **OpenAI Integration:** Connect to Azure OpenAI to handle chat requests.
+
+**Running the Apps:**
+- Open two terminals.
+- In the first terminal, run `python app3.py` to start the Flask server.
+- In the second terminal, use the script below to send test messages.
+
+**test_app3.py:**
+```python
+import requests
+
+def send_chat_request(user_input):
+    url = "http://localhost:5000/chat"
+    data = {"user_input": user_input}
+    response = requests.post(url, json=data)
+    if response.status_code == 200:
+        print(f"Server responded: {response.json()}")
+    else:
+        print(f"Error: Status code {response.status_code}")
+
+# Test the chat function
+send_chat_request("Say hi in French")
+```
+
+**Explanation:**
+- **Testing:** Test the chat functionality by sending a request to the Flask server.
+
+### Part 4: Flask App with HTML and OpenAI Integration
+
+**Objective:** Combine Flask, HTML, and OpenAI for a complete interactive web app.
+
+**app4.py:**
+```python
+from flask import Flask, request, jsonify, render_template
+from openai import AzureOpenAI
+import os
+import dotenv
+
+dotenv.load_dotenv()
+
+AOAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+AOAI_KEY = os.getenv("AZURE_OPENAI_API_KEY")
+MODEL_NAME = "gpt-35-turbo"
+
+app = Flask(__name__)
+
+openai_client = AzureOpenAI(api_key=AOAI_KEY, azure_endpoint=AOAI_ENDPOINT, api_version="2024-05-01-preview")
+
+@app.route('/')
+def home():
+    return render_template('chat_app4.html')
+
+@app.route('/autocomplete', methods=['POST'])
+def autocomplete():
+    data = request.get_json()
+    prompt = data.get('prompt', '')
+    response = openai_client.chat.completions.create(
+        model=MODEL_NAME,
+        messages=[
+            {"role": "system", "content": "You are an autocomplete assistant."},
+            {"role": "user", "content": prompt}
+        ],
+        max_tokens=50,
+        temperature=0.5
+    )
+    suggestions = response.choices[0].message.content
+    return jsonify({'suggestions': suggestions})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+**templates/chat_app4.html:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocomplete App</title>
+    <script>
+        async function getAutocomplete() {
+            const prompt = document.getElementById('inputText').value;
+            const response = await fetch('/autocomplete', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ prompt })
+            });
+            const data = await response.json();
+            document.getElementById('suggestions').innerText = data.suggestions;
+        }
+    </script>
+</head>
+<body>
+    <h1>Autocomplete App</h1>
+    <div>
+        <input type="text" id="inputText" oninput="getAutocomplete()">
+        <div id="suggestions"></div
+
+>
+    </div>
+</body>
+</html>
+```
+
+**Explanation:**
+- **Render Template:** Serves an HTML file for interaction.
+- **JavaScript:** Fetches autocomplete suggestions from the Flask server.
+
+
+# Activities 
+### 1. **Explore Flask Routes and Templates**
+
+**Activity:**  
+- **Objective:** Understand Flask routes and rendering HTML.
+- **Task:** modify `app1.py` by adding new routes that display different types of content, such as text, images, or embedded videos. Encourage them to use different HTML elements and styles.
+- **Challenge:** Ask coders to create a simple personal webpage using Flask that includes sections like "About Me," "Projects," and "Contact."
+
+### 2. **Create a Mini Chatbot**
+
+**Activity:**  
+- **Objective:** Implement basic chatbot functionality using Flask and Azure OpenAI.
+- **Task:** Using `app3.py` as a starting point, have coders create a simple chatbot that can answer questions based on a specific theme, such as history, science, or technology.
+- **Challenge:** integrate additional APIs (like a weather API or a news API) to provide dynamic responses based on real-time data.
+
+### 3. (optional) **Interactive Form with Data Validation**
+
+**Activity:**  
+- **Objective:** Learn about form handling and data validation in Flask.
+- **Task:** In `app2.py`, extend the interactive form to include additional input fields (e.g., name, age, favorite color) and implement basic validation (e.g., required fields, correct data types).
+- **Challenge:** Ask coders to store and display submitted data on a new route, creating a simple guestbook application.
+
+### 4. (optional) **Autocomplete Feature Enhancement**
+
+**Activity:**  
+- **Objective:** Improve the autocomplete feature using JavaScript and Flask.
+- **Task:** In `app4.py` and `chat_app4.html`, modify the autocomplete functionality to provide more interactive suggestions (e.g., highlighting, filtering based on previous inputs).
+- **Challenge:** Have coders create a themed autocomplete feature (e.g., suggesting movie titles, book names, or historical figures) and display related images or links based on the user's selection.

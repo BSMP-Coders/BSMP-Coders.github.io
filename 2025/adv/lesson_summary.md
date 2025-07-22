@@ -13,12 +13,12 @@ Below is a summary of our lesson plans:
 1. [Lesson 1 - Introduction to GitHub](/2025/adv/lesson1/lesson1.md)
 2. [Lesson 2 - Introduction to Generative AI, Prompt Engineering, and Responsible AI](/2025/adv/lesson2/lesson2.md)
 3. [Lesson 3 - GitHub Copilot Web Apps](/2025/adv/lesson3/lesson3.md)
-4. [Lesson 4 - ​​First Python Game w/ Github Copilot](/2025/adv/lesson4/lesson4.md)
-5. [Lesson 5 - PyGame Project w/ GitHub Copilot](/2025/adv/lesson5/lesson5.md)
-6. [Lesson 6 - PyGame Mechanics Mastery](/2025/adv/lesson6/lesson6.md)
-7. [Lesson 7 - Copilot Vid Story](/2025/adv/lesson7/lesson7.md) 
-8. [Lesson 8 - Realistic Vid Azure Sora](/2025/adv/lesson7/lesson8.md)
-9. [Lesson 9 - AI Literacy](/2025/adv/lesson7/lesson9.md)
+4. [Leson 4 - ​​First Python Game w/ Github Copilot](/2025/adv/lesson4/lesson4.md)
+5. [Leson 5 - Basic Chat bot](/2025/adv/lesson5/lesson5.md)
+6. [Leson 6 - Building AI Web Apps and Games](/2025/adv/lesson6/lesson6.md) 
+8. [Lesson 7 - Copilot Vid Story](/2025/adv/lesson7/lesson7.md) 
+9. [Lesson 8 - Realistic Vid Azure Sora](/2025/adv/lesson7/lesson8.md)
+10. [Lesson 9 - AI Literacy](/2025/adv/lesson7/lesson9.md)
 
 
 <!-- 

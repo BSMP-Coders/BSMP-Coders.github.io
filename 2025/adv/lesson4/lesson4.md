@@ -1,8 +1,11 @@
-# 🎮 Week 2, Lesson 4: Let's Get Started with Games! <!-- {docsify-ignore-all} -->
+# 🎮 Rock Paper Scissors: Learning Python, Copilot, and Pygame <!-- {docsify-ignore-all} -->
+
+Welcome! In this lesson, you'll learn how to use GitHub Copilot to build Rock Paper Scissors games in Python, from a simple web recap to command-line and graphical versions using Pygame.
+
 
 > [!LESSON_REPO]
 >
-> Refer to this <i class="fab fa-github"></i> [Lesson 4 Repository](https://github.com/BSMP-Coders/advanced-game-dev/tree/main/lesson-1) for lesson details and activities for this lesson.
+> Refer to this <i class="fab fa-github"></i> [Lesson 4 Repository](https://github.com/BSMP-Coders/rock-paper-scissors) for lesson details and activities for this lesson.
 
 -----
 
@@ -17,82 +20,132 @@ By the end of this lesson, you'll be able to:
 - **Partner with AI** - Use GitHub Copilot as your coding assistant
 - **Understand game logic** - Learn how games make decisions and handle player input
 - **Run Python programs** - Execute your code and see it come to life!
+---
 
-## ✅ Before You Start
+> Refer to this <i class="fab fa-github"></i> [Lesson 4 Repository](https://github.com/BSMP-Coders/rock-paper-scissors) for lesson details and activities for this lesson.
 
-Make sure you have:
-- ✅ **Access to GitHub Copilot** - Your AI coding partner
-- ✅ **A Codespace or VS Code** - Your development environment
-- ✅ **Curiosity and excitement** - The most important ingredient!
+## Recap: Web Version with `python -m http.server`
 
-> **💡 Pro Tip:** This lesson uses a special CodeTour feature that will guide you step-by-step. Think of it as your GPS for coding!
+_Last session, we learned how to use GitHub Copilot to generate web apps._
 
-## How to use the guided CodeTour
+### Activity: Run a Simple Web Rock Paper Scissors
 
-1. Fork this repository
+**File:** `1_web_recap.html`
 
-1. Open your forked repository in a Codespace.
+1. **Prompt Copilot:**  
+   _"Generate a basic HTML/JavaScript Rock Paper Scissors game with three buttons and a result display."_
 
-1. Choose the “Explorer Icon” on the left sidebar of your editor.
+2. **How to Run:**
+   - Save the file as `1_web_recap.html`.
+   - In your dev container terminal, run:
+     ```bash
+     python -m http.server
+     ```
+   - Open your browser to `http://localhost:8000/1_web_recap.html`.
 
-<img width="431" alt="Highlighting the Explorer Icon" src="https://user-images.githubusercontent.com/22990146/222706773-ad2fcb4f-5346-4bcc-995f-88c1ceec8083.png">
+---
 
-1. Toggle the CodeTour panel
+## In-Class Activity 1: Command-Line Rock Paper Scissors
 
-<img width="411" alt="Highlighting the Code Tour panel" src="https://user-images.githubusercontent.com/22990146/222707067-f03533f9-3625-4597-a201-1d17b76f112a.png">
+**File:** `2_basic_py.py`
 
-1. Press the “Play button” to start the tour.
+1. **Prompt Copilot:**  
+   _"Write a simple command-line Rock Paper Scissors game in Python. The user types their choice, the computer picks randomly, and the winner is printed. Add a way to quit."_
 
-<img width="437" alt="Highlighting the Play button" src="https://user-images.githubusercontent.com/22990146/222708745-53e644aa-dc2b-44d0-8484-ac335847e14d.png">
+2. **How to Run:**
+   - Save as `2_basic_py.py`.
+   - Run in terminal:
+     ```bash
+     python 2_basic_py.py
+     ```
 
-1. Your CodeTour will begin! Follow the CodeTour’s steps to learn how to use GitHub Copilot.
+---
 
-<img width="437" alt="Highlighting the start of a CodeTour" src="https://user-images.githubusercontent.com/22990146/222709106-ebdfe7c2-e198-4e76-8be4-cdd592453b6a.png">
+## In-Class Activity 2: Introduction to Pygame
 
-### 🎯 Your Coding Journey Preview
+- [Pygame Tutorial](https://coderslegacy.com/python/python-pygame-tutorial/)
+- [Pygame Official Tutorials](https://www.pygame.org/wiki/tutorials)
 
-Here's what your CodeTour will teach you - but remember, the interactive experience is much more fun!
+**Pygame Concepts:**
+- Pygame is a library for making games in Python.
+- You create a window, draw graphics, and handle user input.
+- The main loop updates the screen and checks for events.
 
-#### Step 1: 👋 Welcome & Setup
-Your CodeTour will introduce you to the magic of GitHub Copilot and Rock, Paper, Scissors!
-
-#### Step 2: 🎯 Give Copilot Context  
-You'll write your first comment to tell Copilot what you're building:
+**Important:**  
+For all Pygame activities in the dev container, add these lines at the top of your file:
 ```python
-# Write a rock, paper, scissors, game
+import os
+os.environ["DISPLAY"] = ":1"
+# or run DISPLAY=:1 python main.py 
 ```
 
-<img width="1438" alt="Write a rock paper scissors game comment" src="https://user-images.githubusercontent.com/22990146/222714683-d065c102-9b0c-4645-83d6-dfcf732d3b20.png">
+**File:** `3_pygame_simple.py`
 
-Then you'll ask Copilot to help import what you need:
-```python  
-# import random module
-```
+1. **Prompt Copilot:**  
+   _"Create a very simple Rock Paper Scissors game using Pygame. Show three buttons, let the user click one, and display the result. No scores needed."_
 
-<img width="1429" alt="Screen Shot 2023-03-03 at 6 58 46 AM" src="https://user-images.githubusercontent.com/22990146/222715309-72f40d08-e94f-438a-9719-cf0d14a2aebb.png">
+2. **How to Run:**
+   - Save as `3_pygame_simple.py`.
+   - Run in terminal:
+     ```bash
+     python 3_pygame_simple.py
+     ```
 
-#### Step 3: 🧠 Create the Game Logic
-You'll prompt Copilot to build the main function:
-```python
-# define main function that handles all the logic
-```
+3. **Activity Ideas:**
+   - Change button colors.
+   - Add images or emojis.
+   - Show a message for each result.
 
-<img width="1498" alt="define main function" src="https://user-images.githubusercontent.com/22990146/222715649-84631082-4771-4b5b-9236-9b396a7b313e.png">
+---
 
-#### Step 4: ▶️ Make It Run
-You'll tell Copilot to start your game:
-```python
-# call main function  
-```
+## In-Class Activity 3: Full Pygame Rock Paper Scissors
 
-<img width="1507" alt="Call main function" src="https://user-images.githubusercontent.com/22990146/222715869-176895c5-26bb-43a7-adb1-fe579064f689.png">
+**File:** `4_pygame_full.py`
 
-#### Step 5: 🎉 Play Your Game!
-Run your code with `python3 main.py` and watch your creation come to life!
+1. **Prompt Copilot:**  
+   _"Build a complete Rock Paper Scissors game in Pygame with scores, reset button, and result display. Use classes and organize the code."_
 
-<img width="1086" alt="Playing the game in the terminal" src="https://user-images.githubusercontent.com/22990146/222713921-70e04ad7-6522-4b28-8eea-819da728c3d0.png">
+2. **How to Run:**
+   - Save as `4_pygame_full.py`.
+   - Run in terminal:
+     ```bash
+     python 4_pygame_full.py
+     ```
 
+3. **Activity Ideas:**
+   - Add sound effects.
+   - Animate the buttons.
+   - Keep a high score.
 
+---
+
+## Challenge: Make It Your Own!
+
+- Use Copilot to iterate and make the game harder (e.g., add a timer, best-of-5, or AI).
+- Or, try building a new game! For example, see the demo file `lesson5_space_invaders.py` for a simple Space Invaders using Pygame.
+
+**Prompt Copilot:**  
+_"Show me how to make a simple Space Invaders game in Pygame with a player, enemies, and shooting."_
+
+---
+
+## Tips for Using Copilot
+
+- Start with a clear comment or docstring describing what you want.
+- Accept, edit, or reject Copilot’s suggestions as needed.
+- Experiment! Try changing prompts to see different results.
+
+---
+
+## Summary
+
+- **Recap:** Web version with `python -m http.server`
+- **Activity 1:** Command-line Python game
+- **Activity 2:** Simple Pygame version
+- **Activity 3:** Full-featured Pygame game
+- **Challenge:** Iterate or build your own game
+
+----
 
 ## 💡 What's Next?
 

@@ -7,9 +7,9 @@
 * [Lesson 1 - Intro to GitHub](/2025/adv/lesson1/lesson1.md)
 * [Lesson 2 - Intro GenAI](/2025/adv/lesson2/lesson2.md)
 * [Leson 3 - GitHub Copilot Web Apps](/2025/adv/lesson3/lesson3.md)
-* [Leson 4 - ​​First Python Game w/ Github Copilo](/2025/adv/lesson4/lesson4.md)
-* [Leson 5 - PyGame Project w/ GitHub Copilot](/2025/adv/lesson5/lesson5.md)
-* [Leson 6 - PyGame Mechanics Master](/2025/adv/lesson6/lesson6.md) 
+* [Leson 4 - ​​First Python Game w/ Github Copilot](/2025/adv/lesson4/lesson4.md)
+* [Leson 5 - Basic Chat bot](/2025/adv/lesson5/lesson5.md)
+* [Leson 6 - Building AI Web Apps and Games](/2025/adv/lesson6/lesson6.md) 
 * [Lesson 7 - Copilot Vid Story](/2025/adv/lesson7/lesson7.md)
 * [Lesson 8 - Realistic Vid Azure Sora](/2025/adv/lesson8/lesson8.md)
 * [Lesson 9 - AI Literacy](/2025/adv/lesson9/lesson9.md)
@@ -20,6 +20,7 @@
   * **Building AI Chat Apps**
   * * [Flask AI Chat Web App](/2025/adv/chatapps/flask_web_chat_app.md)
   * * [React AI Chat Web App](/2025/adv/chatapps/react_web_chat_app.md)
+  * [GenAI 4 Beginners](/2025/adv/chatapps/gen_ai_4_beginners.md)
   * [other examples](/2025/adv/lesson7/other_examples.md)
 </details>
 
