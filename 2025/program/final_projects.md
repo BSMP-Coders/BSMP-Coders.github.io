@@ -6,8 +6,11 @@
 
 !> All projects should be submitted by **`Monday, July 28 @ Midnight`** so team has time to review, and will be presented at your local BSMP chapter.
 
-> [!WARNING] <!--[!ATTENTION] ⚠️-->  
-> Student Coding Project Submission form: [Link Placeholder]  
+> [!NOTE]
+> 
+> **Student Coding Project Submission form:** https://forms.office.com/r/skvLfKKSdw
+>
+> ![](../../2025/media/submission_form_excerpt.png)
 >
 > **Judging Criteria Objectives**
 > * Delivery - preparation and delivery of project/code/demo confidently
@@ -15,16 +18,8 @@
 > * Creativity and Originality - the presentation should be creative and original. extra points for those that come up with a unique and interesting way to present their topic, and use code/ai and visualizations in a way that is both informative and engaging.
 > 
 
-<!--
-Students to submit video by the last Tuesday of BSMP Chapter before class
 
-Student Coding Project Submission form: https://forms.office.com/r/eqjhnYgSS6
-
-
-![](../../_media/lessons/submission_form_excerpt.png)
--->
-
-
+----
 
 
 #### 🎓 Advance Past Submissions
