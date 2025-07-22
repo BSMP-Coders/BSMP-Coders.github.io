@@ -40,11 +40,11 @@ You can bring images to life by using the image-to-video capability that Veo has
 ---
 
 ### 🗂️ Agenda  
-1. [Introduction to Azure AI Foundry & Sora](/dev25/lesson8/prod/sora_prompts.md)  
+1. [Introduction to Azure AI Foundry & Sora](/2025/adv/lesson8/sora_prompts.md)  
 2. What Makes a Good Story Prompt  
 3. Writing Effective Prompts for Video  
-4. Using Sora to Generate AI Videos - [sora dogs in class demo](/dev25/lesson8/prod/sora_dogs_demo.md)  
-5. [In-Class Activity: Create Your Own AI for Good Video](/dev25/lesson8/prod/demo.md)  
+4. Using Sora to Generate AI Videos - [sora dogs in class demo](/2025/adv/lesson8/sora_dogs_demo.md)  
+5. [In-Class Activity: Create Your Own AI for Good Video](/2025/adv/lesson8/demo.md)  
 6. Share & Reflect  
 
 ---
