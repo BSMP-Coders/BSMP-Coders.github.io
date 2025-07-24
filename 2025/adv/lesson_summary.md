@@ -82,7 +82,7 @@ Below is a summary of our lesson plans:
 
 !> Repo 👉 [Rock Paper Scissors](https://github.com/BSMP-Coders/rock-paper-scissors) 
 
-<video controls style="width:100%; height:auto;">
+<video controls style="width:100%; height:auto;" poster="https://nfl24cdn.azureedge.net/nflblob/bsmp25/lesson_media/lesson4_rock_paper_scissor_pygame.png">
     <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/lesson_media/pygame%20in%20codespaces%20demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
