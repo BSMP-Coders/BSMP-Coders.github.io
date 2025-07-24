@@ -81,7 +81,7 @@ source: https://www.programstrategyhq.com/post/responsible-ai-checklist-pshq
 
 ---
 
-## 🤖 What is AI? A Quick Intro for Students
+## 🤖 Quick Recap on Understanding AI
 
 AI stands for **Artificial Intelligence** — technology that can learn patterns and make predictions based on data.
 
@@ -389,7 +389,7 @@ You’ll pretend to be someone affected by an AI decision (like a judge, teacher
 
 > [!ACTIVITY] 10 min breakout activity
 > The goal is to understand how different people are affected by AI decisions and how we might hold AI systems accountable.
-> [Activity 3: Ethics Roleplay — “What Would You Do?”](/dev25/lesson9/prod/activity3.md)
+> [Activity 3: Ethics Roleplay — “What Would You Do?”](/2025/adv/lesson9/activity3.md)
 >
 > Whose perspective made this issue most complicated?
 
