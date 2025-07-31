@@ -49,6 +49,8 @@ tldr.tech is a web app designed to simplify the overwhelming world of tech news 
 
 ##### **Honorable Mentions**
 
+(No Particular Order)
+
 <!-- tabs:start -->
 
 ##### **InterviewOS**
@@ -76,7 +78,80 @@ tldr.tech is a web app designed to simplify the overwhelming world of tech news 
 <!-- tabs:end -->
 
 
+##### **Other Noteble Awesome Projects**
+
+(No Particular Order)
+
+<!-- tabs:start -->
+
+
+##### **Fluenity**
+
+Fluenity is a web app that uses AI to help you learn languages more effectively. It generates customized lessons with built-in practice that helps you learn words you use in real-life. It also has an AI tutor that specializes in answering questions that help you understand languages better.
+
+<video controls style="width:100%; height:auto;">
+    <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/adv_final_projects/BAM%20Coding%20and%20AI%20Program%20Entry_%20Fluenity%20-%20M_Philip%20Adefila.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+> YouTube Link: [https://www.youtube.com/watch?v=necPEftZ3Lw](https://www.youtube.com/watch?v=necPEftZ3Lw)
+
+
+
+##### **AI Biz Insight Dashboard**
+
+An AI-powered business insight dashboard designed to help small and minority-owned businesses understand customer feedback, get actionable advice, and visualize financial trends. It uses Azure OpenAI to analyze customer sentiment, generate tailored business suggestions, and forecast revenue and expenses. Additional features include an interactive revenue vs expenses chart, a profitability calculator, and a notes section to support real-time business planning.
+
+<video controls style="width:100%; height:auto;">
+    <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/adv_final_projects/AASHIRYA%20VARMA%20-%20CodingProject_Aashirya%20Varma.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+> YouTube Link: [https://www.youtube.com/watch?v=h8IZfkc69s0](https://www.youtube.com/watch?v=h8IZfkc69s0)
+
+
+##### **MolecuViz**
+
+MolecuViz is a website to help students learn about chemistry through interactive features such as 3D models and AI Chemistry Assistants. MolecuViz has a database of 26 molecules ranging from many types with its own 3D model and basic description/properties. The AI Chemistry Assistant allows for the user to ask questions and the user can print out a nice PDF of that specific molecule and its properties.
+
+<video controls style="width:100%; height:auto;">
+    <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/adv_final_projects/AASHIRYA%20VARMA%20-%20CodingProject_Aashirya%20Varma.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+> YouTube Link: [https://youtu.be/aKlZ9-O2OOg](https://youtu.be/aKlZ9-O2OOg)
+
+
+
+
+
+##### **Hollow Descent**
+
+A souls-like dungeon crawler game with a custom currency system and a shop, with dozens of unique weapons, animations, abilities.
+
+<video controls style="width:100%; height:auto;">
+    <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/adv_final_projects/Hollo%20Descent%20-%20Vihaan%20Parikh.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+##### **Aurora Veil**
+
+Its a self-made AI that can teach and help new and old. Completive Pokémon players, by teaching new players the skills required to compete, and for old players act as opponent to test out their teasm
+
+<video controls style="width:100%; height:auto;">
+    <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/adv_final_projects/Aurora%20Veil%20-%20Ahmet%20Elci.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+
+
+<!-- tabs:end -->
+
+
+
 <!-- tabs:end -->
 
 
 ----
+
