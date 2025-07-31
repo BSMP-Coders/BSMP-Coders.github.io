@@ -27,7 +27,7 @@
 <!-- tabs:start -->
 
 
-##### **2025 Winner**
+##### **2024 Winner**
 
 <video controls style="width:100%; height:auto;">
     <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/bsmp_proj_vids/ahmet_the_u_game_2024.mp4" type="video/mp4">
