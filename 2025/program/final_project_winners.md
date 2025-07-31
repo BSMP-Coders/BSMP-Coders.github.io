@@ -115,12 +115,11 @@ An AI-powered business insight dashboard designed to help small and minority-own
 MolecuViz is a website to help students learn about chemistry through interactive features such as 3D models and AI Chemistry Assistants. MolecuViz has a database of 26 molecules ranging from many types with its own 3D model and basic description/properties. The AI Chemistry Assistant allows for the user to ask questions and the user can print out a nice PDF of that specific molecule and its properties.
 
 <video controls style="width:100%; height:auto;">
-    <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/adv_final_projects/AASHIRYA%20VARMA%20-%20CodingProject_Aashirya%20Varma.mp4" type="video/mp4">
+    <source src="https://nfl24cdn.azureedge.net/nflblob/bsmp25/adv_final_projects/Partho%20Biswas%20-%20Coding%20Project%20(Advanced)_Partho%20Biswas.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
 > YouTube Link: [https://youtu.be/aKlZ9-O2OOg](https://youtu.be/aKlZ9-O2OOg)
-
 
 
 
