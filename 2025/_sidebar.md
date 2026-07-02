@@ -2,7 +2,7 @@
 * [🚀 Student Video Project (Tues, July 29th)](/2025/program/final_projects.md)
 
 ----- 
-
+* **2025 Classes**
 * [Intermediate Class](/2025/intermediate/lesson_summary.md)
 * [Advanced Class](/2025/adv/lesson_summary.md)
 
@@ -13,3 +13,7 @@
   * [Getting Started with this course](/students/Getting-Started.md)
   * [Coding Schedule](/2025/program/coding_class_time_schedule.md)
   * [Coding Office Hours](/2025/program/bsmp_coding_office_hrs.md)
+
+---
+* **Coding Instructors 🧑‍🏫**
+  * [Coding Instructors](/2025/program/coding_program_admins.md)

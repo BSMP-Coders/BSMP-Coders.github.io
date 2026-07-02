@@ -1,13 +1,6 @@
 * [**BSMP26 Code & AI Program**](/2026/README.md)
 * [🚀 Student Video Project (Tues, July 28th)](/2026/program/final_projects.md)
 
-<!--
------ 
-  * [⚠️⚠️final projects v2](/2026/program/final_projects_v2.md)
-* **2025 Classes**
-* [Intermediate Class](/2025/intermediate/lesson_summary.md)
-* [Advanced Class](/2025/adv/lesson_summary.md)
--->
 -----
 * [**Lessons**](/2026/lesson_summary.md)
 
@@ -23,5 +16,6 @@
   * [Getting Started with GitHub and GitHub Copilot](/students/github_copilot_setup.md)
   * [Getting Started with this course](/students/Getting-Started.md)
   * [Coding Schedule](/2026/program/coding_class_time_schedule.md)
-  * [Coding Office Hours](/2026/program/bsmp_coding_office_hrs.md)
+  * [Coding Office Hours](/students/bsmp_coding_office_hrs.md)
   * [BSMP AI Models](/2026/program/byok_azure_models_setup.md)
+

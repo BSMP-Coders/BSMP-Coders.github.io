@@ -34,7 +34,8 @@
       routerMode: 'hash',  // Change this to 'hash'  
       //logo: '/_media/BAM_logo.png',
       //logo: '/_media/logos/bam_coding_logo.png',
-      logo: '/_media/v25/media/bsmp25_logo.png',
+      //logo: '/_media/v25/media/bsmp25_logo.png', // ✅ bmsp25 logo
+      logo: '/_media/v26/media/bsmp26_logo1.png', // ✅ bmsp26 logo
       mergeNavbar: true,
       nativeEmoji: true,
       tabs: {theme: 'classic'},
@@ -121,10 +122,16 @@
   </script>  
   <!-- Required: docsify + docsify-themeable -->
   <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="https://unpkg.com/docsify-themeable"></script>
+  <!-- <script src="https://unpkg.com/docsify-themeable"></script> -->
   <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+    <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid = mermaid;
+  </script>
+  <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
   <!-- awesome font-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <!-- dev styles for markdown -->

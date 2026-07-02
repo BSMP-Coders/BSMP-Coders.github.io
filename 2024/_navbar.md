@@ -5,7 +5,8 @@
 * [**Intermediate**](/2024/intermediate/README.md)
 * [**Advanced**](/2024/adv/README.md)
 * **Course Archive**
-  * [2025 (current)](/2025/README.md)
+  * [2026 (current)](/2026/README.md)
+  * [2025](/2025/README.md)
   * [2024](/2024/README.md)
 * **For Students 🧑‍🎓🚀**
   * [Getting Started with GitHub and GitHub Copilot](/2024/students/github_copilot_setup.md)

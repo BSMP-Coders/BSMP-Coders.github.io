@@ -1,8 +1,11 @@
+* [**Back to 2026**](/2026/README.md)
+----
 * [**BSMP 2025 Code & AI Academy**](/2025/README.md)
 * [**Intermediate**](/2025/intermediate/lesson_summary.md)
 * [**Advanced**](/2025/adv/lesson_summary.md)
 * **Course Archive**
-  * [2025 (current)](/2025/README.md)
+  * [2026 (current)](/2026/README.md)
+  * [2025](/2025/README.md)
   * [2024](/2024/README.md)
 <!--- ⚠️ TODO: remove late 
 * **⚠️PH DEV**
