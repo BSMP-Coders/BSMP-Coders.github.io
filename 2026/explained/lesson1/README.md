@@ -4,9 +4,6 @@
 
 In this lesson you build a website that grows from plain HTML → a Python server → an AI chatbot → a real **assistant** with a persona, memory, and streaming replies. That's a LOT of new ideas in one sitting. This guide slows it down and explains the *why* behind each piece — no jargon, just the mental models that make it click.
 
-> 📂 **Reading order vs. file names:** the cards below are in **lesson order** (the order you actually build things). The HTML files are numbered by when they were created, so a couple are out of sequence on disk — read them in the order shown here:
-> `0` overview → `1` anatomy → `2` static vs server → `3` routes → `7` templates → `4` AI chat → `5` secrets → `6` system prompt → `8` memory → `9` streaming.
-
 ---
 
 ## 0. The big build — start here 🚀

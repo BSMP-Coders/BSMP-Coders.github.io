@@ -1,6 +1,6 @@
-# 💰 Lesson 2 — Explained
+# 💰 Lesson 2 - Data Analytics — Explained
 
-### Supplementary reading for *My Financial Future — Data & Visualization*
+### Supplementary reading for *Data Anlaytics - My Financial Future + Assistant*
 
 In this lesson you build a Flask app that turns raw numbers into interactive **charts**, captures plans with **forms**, answers questions with an **AI advisor grounded in your real data**, and gives every user their own **secure account**. This guide explains the concepts behind each piece — the moves behind every dashboard and analytics app — no jargon, just the mental models that make it click.
 

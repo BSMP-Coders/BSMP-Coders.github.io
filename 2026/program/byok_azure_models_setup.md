@@ -47,36 +47,43 @@ This lets you select the BSMP model when using **Copilot agent mode**.
 
 In your Codespace, open the **Copilot Chat** panel and click the **model selector** dropdown (where the current model name is shown).
 
-![Placeholder: screenshot of the Copilot Chat model selector dropdown](/_media/screenshots/copilot_model_dropdown.png ":size=720")
-
 ### Step 2 — Choose "Manage Models" / "Add Model"
 
 At the bottom of the model list, click the **⚙️ Manage Models** (or **Add a model**) option.
 
-![Placeholder: screenshot of the Manage Models option](/_media/screenshots/copilot_manage_models.png ":size=720")
+![Placeholder: screenshot of the Copilot Chat model selector dropdown and Manage Models option](../../_media/github_byok/1_model_selector_dropdown.png ":size=720")
 
-### Step 3 — Select "Azure" as the provider
+### Step 3 — Click Add Model and Select "Azure" as the provider
 
-When prompted for a provider, choose **Azure**.
+At the top right in green should be a button to "Add Models". Select that. When prompted for a provider, choose **Azure**.
 
-![Placeholder: screenshot of selecting Azure as the model provider](/_media/screenshots/copilot_select_azure.png ":size=720")
+![Placeholder: screenshot of selecting Azure as the model provider](../../_media/github_byok/2_copilot_select_azure.png)
 
-### Step 4 — Enter your chapter's model details
+Hit enter as well to use `Azure` as the Group Name. 
 
-Copy the values from your chapter's **AI Models and Keys** Loop page:
+![alt text](../../_media/github_byok/2_select_azure.png)
 
-- **Deployment / Model name** → e.g. `gpt-5.4-nano`
-- **Endpoint** → your chapter's `https://....openai.azure.com/`
-- **API Key** → your chapter's key
-- **API Version** → as listed on the Loop page
 
-![Placeholder: screenshot of entering the Azure model endpoint, key, and deployment name](/_media/screenshots/copilot_enter_model_details.png ":size=720")
+### Step 4 - Enter in the API key
 
-### Step 5 — Select your model
+Copy the API Key from the **AI Models and Keys** Loop page and paste it when prompted like so and then hit `Enter`:
+
+![alt text](../../_media/github_byok/4_copilot_api_key.png)
+
+### Step 5 — Enter your chapter's model details
+
+Copy the values from your chapter's **AI Models and Keys** Loop page and update lines 9 and 10 in the `chatLanguageModels.json`. 
+
+- line 9 `name` update model name to: `gpt-5.4-nano`
+- line 10 `url` update to the model url: `https://....openai.azure.com/`
+
+![Placeholder: screenshot of entering the Azure model endpoint, key, and deployment name](../../_media/github_byok/5_copilot_enter_model_details.png ":size=720")
+
+### Step 6 — Select your model
 
 Back in the model dropdown, select your newly added **BSMP Azure model**. You're now ready to use it in **agent mode**! ✅
 
-![Placeholder: screenshot of the BSMP model selected in the dropdown](/_media/screenshots/copilot_model_selected.png ":size=720")
+![Placeholder: screenshot of the BSMP model selected in the dropdown](../../_media/github_byok/6_copilot_model_selected.png ":size=720")
 
 <br>
 
@@ -105,7 +112,8 @@ AZURE_OPENAI_DEPLOYMENT="gpt-5.4-nano"
 AZURE_OPENAI_API_VERSION="2026-xx-xx"
 ```
 
-![Placeholder: screenshot of a completed .env file in VS Code](/_media/screenshots/env_file_filled.png ":size=720")
+![Placeholder: screenshot of a completed .env file in VS Code](../../_media/github_byok/env_file_filled.png ":size=720")
+
 
 !> ⚠️ **Never commit your `.env` file.** It's already in `.gitignore` so your keys stay out of GitHub — keep it that way.
 
