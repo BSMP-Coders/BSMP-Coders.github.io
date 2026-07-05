@@ -2,7 +2,7 @@
 ![](../../_media/lessons/student_video_project.png)
 -->  
 
-![](../../2025/media/student_video_project_2025.png)
+![](../../2026/media/student_video_project_2026.png)
 
 !> All projects should be submitted by **`Monday, July 27 @ Midnight`** so team has time to review, and will be presented at your local BSMP chapter.
 
@@ -10,7 +10,6 @@
 > 
 > **Student Coding Project Submission form:** [Link Placeholder]
 >
-> ![](../../2025/media/submission_form_excerpt.png)
 >
 > **Judging Criteria Objectives**
 > * Delivery - preparation and delivery of project/code/demo confidently
