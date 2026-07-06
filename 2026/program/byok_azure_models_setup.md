@@ -82,7 +82,7 @@ Copy the values from your chapter's **AI Models and Keys** Loop page and update 
 
 ### Step 6 — Select your model
 
-Back in the model dropdown, select your newly added **BSMP Azure model**. You're now ready to use it in **agent mode**! ✅
+Back in the model dropdown, you may need to expand **Other Models…** at the bottom of the list to find your newly added **BSMP Azure model**. Select it — you're now ready to use it in **agent mode**! ✅
 
 ![Placeholder: screenshot of the BSMP model selected in the dropdown](../../_media/github_byok/6_copilot_model_selected.png ":size=720")
 
