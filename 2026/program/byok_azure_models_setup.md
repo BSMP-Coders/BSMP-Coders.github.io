@@ -46,7 +46,7 @@ This lets you select the BSMP model when using **Copilot agent mode**.
 
 ### Step 1 — Open the model picker
 
-In your Codespace, open the **Copilot Chat** panel and click the **model selector** dropdown (where the current model name is shown).
+In your Codespace, open the **Copilot Chat** panel and click the **model selector** dropdown (where the current model name is shown). It might currently say **`Auto`** (the default) — that's fine; click it anyway.
 
 ### Step 2 — Choose "Manage Models" / "Add Model"
 
