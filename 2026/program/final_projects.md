@@ -185,9 +185,9 @@ Its a self-made AI that can teach and help new and old. Completive Pokémon play
 
 <!-- tabs:start -->
 
-##### **BEST OVERALL - Nolive**
+##### **2025 Winner 🥇**
 
-Nolive - Graphic novel game
+**BEST OVERALL - Nolive - Graphic novel game**
 
 
 A visual novel game coded in Bolt.new. it follows a simple few scenes including characters I designed when I was in Middle School, hence the subtitle for the game.
@@ -197,29 +197,27 @@ A visual novel game coded in Bolt.new. it follows a simple few scenes including 
     Your browser does not support the video tag.
 </video>
 
+> YouTube Link: [https://www.youtube.com/watch?v=fhUD1VDyJDs](https://www.youtube.com/watch?v=fhUD1VDyJDs)
 
-##### **MobilSheets**
+##### **🥈**
+
+**MobilSheets**
 
 <video controls style="width:100%; height:auto;">
     <source src="https://nfl2k25cdn-gxcnhdfjbjfndnck.z01.azurefd.net/nflblob/bsmp/bsmp_proj_vids/mobil%20sheets%20demo(2)_Aaditya%20Aravind.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-##### **The Onion: Satirical News with a Fake AI Twist**
+> YouTube Link: [https://youtu.be/2SAH8aECr7k](https://youtu.be/2SAH8aECr7k)
+
+##### **🥉**
+
+**The Onion: Satirical News with a Fake AI Twist**
 
 <video controls style="width:100%; height:auto;">
     <source src="https://nfl2k25cdn-gxcnhdfjbjfndnck.z01.azurefd.net/nflblob/bsmp/bsmp_proj_vids/0727_vcvvoiNE_Faith%20Raymond.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
-
-##### **Catch the Letters!**
-
-<video controls style="width:100%; height:auto;">
-    <source src="https://nfl2k25cdn-gxcnhdfjbjfndnck.z01.azurefd.net/nflblob/bsmp/bsmp_proj_vids/Solo%20Coding%20Project-20250728_214056-Meeting%20R_Gabriella%20McDonald.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
-
 
 
 ##### **Honorable Mentions**
@@ -227,6 +225,22 @@ A visual novel game coded in Bolt.new. it follows a simple few scenes including 
 (No Particular Order)
 
 <!-- tabs:start -->
+
+##### **Focusify**
+
+<video controls style="width:100%; height:auto;">
+    <source src="https://nfl2k25cdn-gxcnhdfjbjfndnck.z01.azurefd.net/nflblob/bsmp/bsmp_proj_vids/Focusify%20Kyle%20S%20-%202025%20-%20KyleFN.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+> YouTube Link: [https://youtu.be/M9sJvSP5lK4](https://youtu.be/M9sJvSP5lK4)
+
+##### **Catch the Letters!**
+
+<video controls style="width:100%; height:auto;">
+    <source src="https://nfl2k25cdn-gxcnhdfjbjfndnck.z01.azurefd.net/nflblob/bsmp/bsmp_proj_vids/Solo%20Coding%20Project-20250728_214056-Meeting%20R_Gabriella%20McDonald.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ##### **From Story to Signal: Our Truth, Our Tomorrow**
 
