@@ -23,7 +23,8 @@ Your chapter section will list something like:
 
 | Field | Example value |
 |-------|----------------|
-| Model / Deployment name | `gpt-5.4-nano` |
+| Copilot Chat model — used in **Part 1** | `gpt-5.4-nano` |
+| App deployment — `AZURE_OPENAI_DEPLOYMENT`, used in **Part 2** | `gpt-5-nano` |
 | Endpoint | `https://<your-chapter-resource>.openai.azure.com/` |
 | API Key | `••••••••••••••••` |
 | API Version | `2026-xx-xx` |
@@ -108,7 +109,7 @@ Open `.env` and paste in the values from your chapter's **AI Models and Keys** L
 ```bash
 AZURE_OPENAI_ENDPOINT="https://<your-chapter-resource>.openai.azure.com/"
 AZURE_OPENAI_KEY="<your-chapter-api-key>"
-AZURE_OPENAI_DEPLOYMENT="gpt-5.4-nano"
+AZURE_OPENAI_DEPLOYMENT="gpt-5-nano"
 AZURE_OPENAI_API_VERSION="2026-xx-xx"
 ```
 
