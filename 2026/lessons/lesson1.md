@@ -2,7 +2,7 @@
 
 > [!LESSON_REPO]
 >
-> Refer to this <i class="fab fa-github"></i> [Lesson 1 Repository - intermediate](https://github.com/BSMP-Coders/int26-lesson1-webapps) and [Lesson 1 Repository - advanced](https://github.com/BSMP-Coders/adv26-lesson1-webapps)  for lesson details and activities for this lesson.
+> Refer to this <i class="fab fa-github"></i> [Lesson 1 Repository - intermediate](https://classroom.github.com/a/kVokm1vy) and [Lesson 1 Repository - advanced](https://classroom.github.com/a/XSBwfECC) and [Lesson 1 - Houston](https://classroom.github.com/a/zL5q058L) for lesson details and activities for this lesson.
 
 <!-- >> [!TIP|style:flat|label:My own heading|iconVisibility:hidden] -->
 
