@@ -109,8 +109,8 @@ Open `.env` and paste in the values from your chapter's **AI Models and Keys** L
 
 ```bash
 AZURE_OPENAI_ENDPOINT="https://<your-chapter-resource>.openai.azure.com/"
-AZURE_OPENAI_KEY="<your-chapter-api-key>"
-AZURE_OPENAI_DEPLOYMENT="gpt-5-nano"
+AZURE_OPENAI_API_KEY="<your-chapter-api-key>"
+AZURE_OPENAI_DEPLOYMENT="gpt-5.4-nano"
 AZURE_OPENAI_API_VERSION="2026-xx-xx"
 ```
 
