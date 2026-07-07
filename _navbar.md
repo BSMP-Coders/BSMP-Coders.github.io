@@ -3,7 +3,7 @@
   * [🆕BSMP Azure Models](/2026/program/byok_azure_models_setup.md)
   * [Getting Started with GitHub and GitHub Copilot](/students/github_copilot_setup.md)
   * [Getting Started with this course](/students/Getting-Started.md)
-  * [Coding Office Hours](/2026/program/bsmp_coding_office_hrs.md)
+  * [Coding Office Hours](/students/bsmp_coding_office_hrs.md)
   * [Lessons](/2026/README.md)
 * **Course Archive**
   * [2026 (current)](/2026/README.md)
