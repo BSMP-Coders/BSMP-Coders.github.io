@@ -10,6 +10,8 @@ Throughout this program, you'll **Learn** the fundamentals of programming with P
 
 You'll gain hands-on experience with GitHub, GitHub Codespaces, AI literacy, and Python-based tools while preparing to showcase your final project to your peers and mentors.
 
+![alt text](../2026/media/class_overview.png)
+
 ---
 
 ## 📚 Lesson Schedule (6 classes × 90 min)

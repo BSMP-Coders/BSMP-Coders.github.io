@@ -10,13 +10,15 @@ This year is bigger and bolder. With AI now at the center of how software gets b
 
 ## Courses Offered 📚
 
-This year we run **one shared curriculum with two tracks**, so everyone learns the same core concepts and builds the same kinds of apps — the **Advanced track** simply moves faster and layers on extra challenges.
+This year we run **one shared curriculum with two tracks**, so everyone learns the same core concepts and builds the same kinds of apps — the **Advanced track** simply moves faster and layers on extra challenges. 
 
-* 👉 [**Intermediate Track**](/2026/intermediate/lesson_summary.md) - Use Python, GitHub Copilot (agent mode), and AI tools to build web apps, AI chatbots, data dashboards, and games — no experience needed!
-* 👉 [**Advanced Track**](/2026/adv/lesson_summary.md) - Go deeper with AI agents, MCP servers, RAG, voice and image generation, and creative coding. Ideal for students with Python and web dev experience.
 
-!> Check out the course lessons for [**Advanced Class**](/2026/adv/lesson_summary.md) and [**Intermediate Class**](/2026/intermediate/lesson_summary.md)
+* 👉 **Intermediate Track** - Use Python, GitHub Copilot (agent mode), and AI tools to build web apps, AI chatbots, data dashboards, and games — no experience needed!
+* 👉 **Advanced Track** - Go deeper with AI agents, MCP servers, RAG, voice and image generation, and creative coding. Ideal for students with Python and web dev experience.
 
+!> Check out the [course lessons](/2026/lesson_summary.md)
+
+![alt text](../2026/media/class_overview.png)
 ---
 
 ## Program Themes 🎯
