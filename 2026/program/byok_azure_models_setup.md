@@ -28,7 +28,8 @@ Your chapter section will list something like:
 
 | Field | Example value |
 |-------|----------------|
-| Model / Deployment name | `gpt-5.4-nano` |
+| Copilot Chat model — used in **Part 1** | `gpt-5.4-nano` |
+| App deployment — `AZURE_OPENAI_DEPLOYMENT`, used in **Part 2** | `gpt-5-nano` |
 | Endpoint | `https://<your-chapter-resource>.openai.azure.com/` |
 | API Key | `••••••••••••••••` |
 | API Version | `2026-xx-xx` |
@@ -46,7 +47,7 @@ This lets you select the BSMP model when using **Copilot agent mode**.
 
 ### Step 1 — Open the model picker
 
-In your Codespace, open the **Copilot Chat** panel and click the **model selector** dropdown (where the current model name is shown).
+In your Codespace, open the **Copilot Chat** panel and click the **model selector** dropdown (where the current model name is shown). It might currently say **`Auto`** (the default) — that's fine; click it anyway.
 
 ### Step 2 — Choose "Manage Models" / "Add Model"
 
@@ -82,7 +83,7 @@ Copy the values from your chapter's **AI Models and Keys** Loop page and update 
 
 ### Step 6 — Select your model
 
-Back in the model dropdown, select your newly added **BSMP Azure model**. You're now ready to use it in **agent mode**! ✅
+Back in the model dropdown, you may need to expand **Other Models…** at the bottom of the list to find your newly added **BSMP Azure model**. Select it — you're now ready to use it in **agent mode**! ✅
 
 ![Placeholder: screenshot of the BSMP model selected in the dropdown](../../_media/github_byok/6_copilot_model_selected.png ":size=720")
 
@@ -109,7 +110,7 @@ Open `.env` and paste in the values from your chapter's **AI Models and Keys** L
 ```bash
 AZURE_OPENAI_ENDPOINT="https://<your-chapter-resource>.openai.azure.com/"
 AZURE_OPENAI_KEY="<your-chapter-api-key>"
-AZURE_OPENAI_DEPLOYMENT="gpt-5.4-nano"
+AZURE_OPENAI_DEPLOYMENT="gpt-5-nano"
 AZURE_OPENAI_API_VERSION="2026-xx-xx"
 ```
 
