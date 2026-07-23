@@ -8,12 +8,12 @@
 
 > [!NOTE]
 > 
-> **Student Coding Project Submission form:** [Link Placeholder]
+> **Student Coding Project Submission form:** https://forms.cloud.microsoft/r/30b2rvFCWc
 >
 >
 > **Judging Criteria Objectives**
 > * Delivery - preparation and delivery of project/code/demo confidently
-> * Content - presentation clearly identified the problem and presented/demo a solution
+> * Content - presentation clearly identified the problem and presented/demo a solution 
 > * Creativity and Originality - the presentation should be creative and original. extra points for those that come up with a unique and interesting way to present their topic, and use code/ai and visualizations in a way that is both informative and engaging.
 > 
 
@@ -21,6 +21,34 @@
 ----
 
 
+## 🌟 Spotlight: From BSMP Capstone → 3rd Place, Congressional App Challenge
+
+Partho Biswas built **MolecuViz** as his BSMP coding capstone — a website that makes
+chemistry interactive with 3D molecule models and an AI Chemistry Assistant (a database
+of 26 molecules, each with its own 3D model, properties, and a printable PDF).
+
+It earned an **honorable mention in BSMP last year** — and Partho didn't stop there.
+He submitted it to the **2025 Congressional App Challenge** and took **3rd place** for
+Congressman Adriano Espaillat's district (NY-13). Since then, MolecuViz has grown from a
+mentorship project into an **open-source tool on GitHub**, with expanded molecule libraries.
+
+**Why this matters for YOUR project:**
+Your capstone doesn't have to end when class does. The best projects become portfolio
+pieces, scholarship material, and competition entries. Solve a real problem you care about —
+just like Partho did.
+
+🎥 Watch: [MolecuViz — BSMP Project](https://youtu.be/aKlZ9-O2OOg) · [Congressional App Challenge submission](https://www.youtube.com/watch?v=ieBIVi3lmBs)
+
+<video controls style="width:100%; height:auto;">
+    <source src="https://nfl2k25cdn-gxcnhdfjbjfndnck.z01.azurefd.net/nflblob/bsmp/bsmp_proj_vids/Partho%20Biswas%20MolecuViz%20-%202025%20Congressional%20App%20Challenge.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+FYI **The challenge is open:** The [2026 Congressional App Challenge](https://www.congressionalappchallenge.us/) is live. 
+> make sure to complete the **BSMP Student Coding Project Submission form first (required for BSMP Coders):** https://forms.cloud.microsoft/r/30b2rvFCWc
+
+
+----
 
 #### 🎓 Advance 2025 - World Wide Winners
 
@@ -265,4 +293,3 @@ A visual novel game coded in Bolt.new. it follows a simple few scenes including 
 
 
 ---
-
